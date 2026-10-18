@@ -1,6 +1,6 @@
 # financas-ptbr
 
-Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.3.4, 70 terms:
+Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.3.7, 70 terms:
 
 | class | terms | examples |
 |---|---|---|
@@ -28,16 +28,16 @@ Version history is in the comment at the top of `pack.yaml`.
 
 ## How it measures
 
-Against each video's gold file, with no learned layer, after D-048 (only what reaches `normalized.txt` is scored):
+Against each video's gold file, with no learned layer, after D-048 (only what reaches `normalized.txt` is scored), with engine 0.6.5:
 
 | video | rows in scope | hits | misses | false positives | aliases recognized | aliases wrongly substituted |
 |---|---|---|---|---|---|---|
-| R2Qgz8tFWVI | 167 | 142 | 25 | 16 | 8 | 0 |
-| wxgFO_fyfXg | 222 | 211 | 11 | 10 | 37 | 0 |
+| R2Qgz8tFWVI | 167 | 142 | 25 | 13 | 8 | 0 |
+| wxgFO_fyfXg | 222 | 211 | 11 | 8 | 37 | 0 |
 | 4wCtn8BWR4o | 45 | 44 | 1 | 2 | 15 | 0 |
 | 4tTmY8Buask | 119 | 108 | 11 | 4 | 38 | 0 |
 
-Out of the domain, on a 16-minute street prank video (D-035), 0.3.4 applies nothing: the one annotation left is a recognition (`tir` → TIR) that changes no text. Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos and 1 in the prank, so the engine would not apply it there at all.
+Out of the domain, forced past pack fit, 0.3.7 changes no text. On a 16-minute street prank video (BIrASod49XY, D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was. On a science video about prions (yJxxTf0IQC8, D-035), nothing is applied; the names that only sound like BR Partners (`proteínas`) are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the prank and 0 in the science video, so the engine would not apply it there at all.
 
 The numbers come from `uv run python scripts/measure.py` in the engine repository; the decision numbers (D-0xx) point into its `docs/DECISIONS.md`.
 
