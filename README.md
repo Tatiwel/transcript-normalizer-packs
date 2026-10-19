@@ -9,7 +9,8 @@ financas-ptbr/
   pack.yaml      the pack itself
   README.md      what it covers, where its terms came from, how it measures
   MAINTAINERS    who reviews changes to it
-index.json       every pack: name, version, language, description, path, sha256
+index.json       every pack: name, version, language, description, path, sha256,
+                 and min_engine when it needs a recent transcript-normalizer
 ```
 
 ## Installing a pack
@@ -38,6 +39,14 @@ By hand, open a pull request that edits `<name>/pack.yaml`:
 2. Say where each new form was seen: video, timestamp, and the line it is on.
 3. Bump the pack's `version` (patch for data, minor for a change of shape) and say in the comment at the top of the pack what the version adds.
 4. Update the pack's entry in `index.json`: `version`, and `sha256` (`sha256sum <name>/pack.yaml`).
+5. If the change uses something an older transcript-normalizer does not understand (`context:` and `unless_near:` need 0.7.0), say so in two places: `min_engine: "0.7.0"` at the top of `<name>/pack.yaml`, so a copy saved by hand is refused by an engine too old for it, and `"min_engine": "0.7.0"` in its `index.json` entry, so `pack list`, `pack install` and `pack update` skip it there with the reason. Versions up to 0.6.5 ignore `min_engine` and take the last entry of a pack in `index.json`. So keep the previous version for them: move its file to `<name>/<old version>/pack.yaml` (its sha256 does not change) and list it as a second entry, after the new one, without `min_engine`:
+
+   ```json
+   {"name": "financas-ptbr", "version": "0.3.8", "min_engine": "0.7.0", "path": "financas-ptbr/pack.yaml", "sha256": "…", "language": "pt-BR", "description": "…"},
+   {"name": "financas-ptbr", "version": "0.3.7", "path": "financas-ptbr/0.3.7/pack.yaml", "sha256": "…", "language": "pt-BR", "description": "…"}
+   ```
+
+   An engine from 0.7.0 on takes the newest version it can use; an older one keeps the last entry. Publish such a change only once that engine version is released.
 
 ## Proposing a new pack
 
