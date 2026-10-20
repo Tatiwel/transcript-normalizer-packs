@@ -27,7 +27,7 @@ transcript-normalizer pack update
 
 Without the command, download `<name>/pack.yaml`, save it as `packs/<name>.yaml` where you run the tool, and pass it with `--pack` or pick it in the menu.
 
-`financas-ptbr` also ships inside the tool, as the default that works offline. An installed copy wins over the bundled one.
+`financas-ptbr` also ships inside the tool, to work offline. From 0.7.0 it is included, not installed: nothing is active until you pick a pack, and installing the included one needs no connection (`pack install financas-ptbr`, or choosing it in the menu). `pack list` shows the packs installed, those included in the tool and those here, each marked. `pack update` takes the newest version your transcript-normalizer can use: 0.7.0 and later get financas-ptbr 0.3.8, older versions keep 0.3.7.
 
 ## Proposing a change to a pack
 

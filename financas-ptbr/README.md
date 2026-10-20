@@ -1,6 +1,6 @@
 # financas-ptbr
 
-Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.3.7, 70 terms:
+Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.3.8, 70 terms. It needs transcript-normalizer 0.7.0 or later (`min_engine`); older versions get 0.3.7, kept in `0.3.7/pack.yaml`.
 
 | class | terms | examples |
 |---|---|---|
@@ -28,16 +28,16 @@ Version history is in the comment at the top of `pack.yaml`.
 
 ## How it measures
 
-Against each video's gold file, with no learned layer, after D-048 (only what reaches `normalized.txt` is scored), with engine 0.6.5:
+Against each video's gold file, with no learned layer, after D-048 (only what reaches `normalized.txt` is scored), with engine 0.7.0:
 
 | video | rows in scope | hits | misses | false positives | aliases recognized | aliases wrongly substituted |
 |---|---|---|---|---|---|---|
-| R2Qgz8tFWVI | 167 | 142 | 25 | 13 | 8 | 0 |
+| R2Qgz8tFWVI | 167 | 145 | 22 | 13 | 8 | 0 |
 | wxgFO_fyfXg | 222 | 211 | 11 | 8 | 37 | 0 |
 | 4wCtn8BWR4o | 45 | 44 | 1 | 2 | 15 | 0 |
 | 4tTmY8Buask | 119 | 108 | 11 | 4 | 38 | 0 |
 
-Out of the domain, forced past pack fit, 0.3.7 changes no text. On a 16-minute street prank video (BIrASod49XY, D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was. On a science video about prions (yJxxTf0IQC8, D-035), nothing is applied; the names that only sound like BR Partners (`proteínas`) are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the prank and 0 in the science video, so the engine would not apply it there at all.
+0.3.8 gives OPEX back its variant `Ox`, only in a video where CAPEX appears (D-086): R2Qgz8tFWVI regains three rows (142 → 145 hits), with false positives unchanged. Out of the domain, forced past pack fit, 0.3.8 changes no text. On a 16-minute street prank video (BIrASod49XY, D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was; its `Ox` is the Northeastern `oxe`, and with no CAPEX in the video it is not even proposed. On a science video about prions (yJxxTf0IQC8, D-035), nothing is applied; the names that only sound like BR Partners (`proteínas`) are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the prank and 0 in the science video, so the engine would not apply it there at all.
 
 The numbers come from `uv run python scripts/measure.py` in the engine repository; the decision numbers (D-0xx) point into its `docs/DECISIONS.md`.
 
