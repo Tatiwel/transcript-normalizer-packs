@@ -25,9 +25,9 @@
 # 0.3.8 devolve `Ox` a OPEX com contexto (D-086), a primeira variante condicionada do pacote:
 # so conta num video em que CAPEX aparece (duas vezes para aplicar, uma para perguntar).
 # Fora disso continua sendo o `oxe` nordestino, e nao e proposta (D-035).
-# 0.3.9 tira 31 variantes que sao palavra ou frase comum, curtas demais ou iguais a outro
+# 0.3.9 tira 32 variantes que sao palavra ou frase comum, curtas demais ou iguais a outro
 # termo (D-032): CEMIG (`esse amigo`, `me caiu`, `do 100`, `sem amig`, `SEMI`, `CIC`), CPF,
-# taa, arte, bit e EBA (EBITDA), B, bit e be (bilhao), rap, valo, TR, india, End, Word, NSS,
+# taa, arte, bit e EBA (EBITDA), B, bit e be (bilhao), rap e rápid (RAP), valo, TR, india, End, Word, NSS,
 # Lu, anel, deck, ESA, Roy e ROI (ROE), ROK, Rid, Portou e partner (BR Partners).
 # Nenhuma volta condicionada: se o erro reaparecer, entra de uma transcricao futura, com gabarito.
 # A regra de unidade "numero + B/bit/bi/be" nao muda. Ficam `no bank`, `PCA`, `apo` e `Ox`.
@@ -95,7 +95,6 @@ terms:
   - term: RAP
     class: sigla
     aliases: [receita anual permitida]
-    variants: [rápid]
   - term: debêntures
     class: conceito
     variants: [debentories, debentor, deementories]

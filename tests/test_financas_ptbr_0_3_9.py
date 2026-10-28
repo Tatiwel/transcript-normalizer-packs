@@ -25,7 +25,7 @@ REMOVED = {
     "Ártica": ["arte"],
     "EBITDA": ["bit", "EBA"],
     "bilhão": ["bit", "B", "be"],
-    "RAP": ["rap"],
+    "RAP": ["rap", "rápid"],
     "valuation": ["valo"],
     "tri": ["TR"],
     "Engie": ["índia", "End"],
