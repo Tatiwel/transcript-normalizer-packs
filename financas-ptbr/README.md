@@ -1,6 +1,6 @@
 # financas-ptbr
 
-Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.3.8, 70 terms. It needs transcript-normalizer 0.7.0 or later (`min_engine`); older versions get 0.3.7, kept in `0.3.7/pack.yaml`.
+Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.3.9, 70 terms. It needs transcript-normalizer 0.7.0 or later (`min_engine`); older versions get 0.3.7, kept in `0.3.7/pack.yaml`.
 
 | class | terms | examples |
 |---|---|---|
@@ -44,3 +44,5 @@ The numbers come from `uv run python scripts/measure.py` in the engine repositor
 ## Maintainers
 
 See `MAINTAINERS`.
+
+0.3.9 removes 31 variants that are an ordinary word or phrase, too short, or the same as another term (D-032): CEMIG (`esse amigo`, `me caiu`, `do 100`, `sem amig`, `SEMI`, `CIC`), CPF, `taa`, `arte`, `bit` and `EBA` (EBITDA), `B`, `bit` and `be` (bilhão), `rap`, `valo`, `TR`, `índia`, `End`, `Word`, `NSS`, `Lu`, `anel`, `deck`, `ESA`, `Roy` and `ROI` (ROE), `ROK`, `Rid`, `Portou` and `partner` (BR Partners). The terms and their aliases stay, and no conditional form takes their place: if one of these garbles comes back, it is added again from a later transcript, with a gold file. The unit rule "number + B/bit/bi/be" is unchanged.

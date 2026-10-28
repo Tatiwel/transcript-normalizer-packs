@@ -3,12 +3,12 @@
   "packs": [
     {
       "name": "financas-ptbr",
-      "version": "0.3.8",
+      "version": "0.3.9",
       "min_engine": "0.7.0",
       "language": "pt-BR",
       "description": "Brazilian stock-market videos: listed companies, tickers, indicators, valuation concepts",
       "path": "financas-ptbr/pack.yaml",
-      "sha256": "c76fe81885d08d7a6417fe8ef2d53a2fe889aa3b798ebe32b23e9e7068e5a8bb"
+      "sha256": "1cad4433b474991a62062ae75515137abc758d78dab15a8c5f790ac17d8a5a24"
     },
     {
       "name": "financas-ptbr",
