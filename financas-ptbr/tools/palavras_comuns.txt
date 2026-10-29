@@ -1,0 +1,203 @@
+# Palavras comuns que aparecem nos nomes e apelidos de acoes.csv, lidas por gerar_termos.py.
+#
+# Um nome (canônico ou apelido) é tratado como palavra comum quando cada palavra dele,
+# dobrada como a engine dobra (minúsculas, sem acento), está nesta lista, entre as
+# palavras comuns do módulo pt-BR da engine, ou tem uma letra só. "Banco do Brasil" é
+# palavra comum; "Banco Bradesco" não é.
+#
+# A lista foi feita à mão, palavra por palavra, a partir de todas as palavras dos nomes
+# e apelidos marcados `conferido` e `usar_no_pack=sim`. Uma linha por palavra, já dobrada.
+# O que vem depois de `#` é comentário.
+
+# --- palavras do português
+aco
+acucar
+afluente
+agricola
+alfa
+alianca
+alimentacao
+alimentos
+alpargatas
+amazonia
+americanas
+ampla
+anima
+animal
+boa
+bombril       # marca que virou nome de produto
+branco
+brasileira
+brava
+caixa
+cambuci       # fruta e bairro
+casas
+cedro
+companhia
+construtora
+cruzeiro
+dias
+digital
+direcional
+distribuicao
+distribuidora
+editora
+educacao
+educacional
+energia
+enjoei        # verbo enjoar
+equatorial
+estilo
+estrela
+eternit       # marca que virou nome da telha
+farmaceutica
+fertilizantes
+fica
+fortes
+gas
+global
+grupo
+hidrovias
+hoteis
+incorporadora
+industrias
+investimentos
+leve
+lis           # flor-de-lis
+localiza
+logistica
+lojas
+machado
+menos
+mercantil
+metal
+metalurgica
+mineracao
+motiva
+movida
+multi
+mundial
+nacional
+natura        # in natura
+pao
+participacoes
+paulista
+pet
+pigmentos
+plano
+porto
+positivo
+quero
+rede
+renova
+rio
+safra
+santa
+saude
+seguridade
+seguro
+sementes
+siderurgica
+solucoes
+soma
+sudeste
+sul
+tenda
+terra
+textil
+transmissao
+triunfo
+turismo
+uniao
+vale
+vamos
+varejo
+veste
+via
+vibra
+viver
+vivo
+
+# --- lugares e nomes de pessoa comuns na fala
+bahia
+brasil
+brasilia
+carlos
+ceara
+guararapes
+joao
+luiza
+maranhao
+marisa
+martinho
+mateus
+nordeste
+paranapanema
+paulo
+santander
+sao
+suzano
+
+# --- latim e siglas de uso geral
+dei
+imc           # índice de massa corporal
+mater
+
+# --- palavras do inglês
+abc
+atom
+city
+commercial
+compass
+desktop
+energy
+even
+field
+fit
+foods
+general
+holdings
+in
+light
+log
+magazine
+mills
+networks
+or
+outlets
+partners
+petroleum
+pine
+portobello    # o cogumelo
+properties
+realty
+sequoia
+shopping
+smart
+taurus
+track
+valid
+whirlpool
+
+# --- nomes que o fuzzy (80 ou mais, D-005) levaria a uma palavra comum
+allianca      # aliança, 93
+coelce        # comece, 83
+contax        # contas, contra, 83
+economatica   # econômica, 90
+elektro       # eletro, 92
+energisa      # energia, 93
+gafisa        # grafia, 83
+intelbras     # inteiras, 82
+marcopolo     # Marco Polo, 95
+minerva       # mineral, 86
+orizon        # horizon, 92
+ourofino      # ouro fino, 94
+raizen        # raízes, 83
+randon        # Rondon, 83
+technos       # técnicos, 80
+tecnisa       # técnica, 86
+trevisa       # revisa, 92
+usiminas      # usinas, 86
+vittia        # vítima, 83
+vivara        # viverá, 83
+alupar        # alugar, 83

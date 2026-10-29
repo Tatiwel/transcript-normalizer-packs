@@ -31,8 +31,9 @@
 # Lu, anel, deck, ESA, Roy e ROI (ROE), ROK, Rid, Portou e partner (BR Partners).
 # Nenhuma volta condicionada: se o erro reaparecer, entra de uma transcricao futura, com gabarito.
 # A regra de unidade "numero + B/bit/bi/be" nao muda. Ficam `no bank`, `PCA`, `apo` e `Ox`.
+# 0.4.0 acrescenta 287 companhias geradas de fontes/acoes.csv por tools/gerar_termos.py, no bloco delimitado no fim dos termos.
 language: pt-BR
-version: 0.3.9
+version: 0.4.0
 min_engine: "0.7.0"
 classes: [companhia, indicador, conceito, unidade, pessoa, organizacao, ferramenta, sigla]
 phonetic_classes: [companhia, pessoa]
@@ -258,6 +259,965 @@ terms:
     aliases: [P/B]
   - term: partnership
     class: conceito
+  # >>> início da parte gerada
+  # gerado por financas-ptbr/tools/gerar_termos.py a partir de financas-ptbr/fontes/acoes.csv; não editar à mão
+  # Para corrigir um nome, corrija o CSV e rode o gerador de novo (financas-ptbr/fontes/LEIAME.md).
+  - term: 3tentos
+    class: companhia
+    aliases: [TTEN3]
+  - term: Aeris Energy
+    class: companhia
+    aliases: [AERI3]
+  - term: Afluente T
+    class: companhia
+    aliases: [AFLT3]
+    context: {Afluente T: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: AgroGalaxy
+    class: companhia
+    aliases: [AGXY3]
+  - term: Alfa Holdings
+    class: companhia
+    aliases: [RPAD3, RPAD5, RPAD6]
+    context: {Alfa Holdings: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Alliança
+    class: companhia
+    aliases: [AALR3]
+    context: {Alliança: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Allied
+    class: companhia
+    aliases: [ALLD3]
+    context: {Allied: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Allos
+    class: companhia
+    aliases: [Aliansce Sonae, Aliansce, brMalls, ALOS3, ALSO3]
+  - term: Alpargatas
+    class: companhia
+    aliases: [ALPA3, ALPA4]
+    context: {Alpargatas: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Alphaville
+    class: companhia
+    aliases: [AVLL3]
+  - term: Alupar
+    class: companhia
+    aliases: [ALUP11, ALUP3, ALUP4]
+    context: {Alupar: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Ambev
+    class: companhia
+    aliases: [ABEV3]
+  - term: Ambipar
+    class: companhia
+    aliases: [AMBP3]
+  - term: Americanas
+    class: companhia
+    aliases: [AMER3, BTOW3, LAME3, LAME4]
+    context: {Americanas: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Ampla Energia
+    class: companhia
+    aliases: [Enel Distribuição Rio, Enel Rio, CBEE3]
+    context: {Ampla Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Ânima Educação
+    class: companhia
+    aliases: [ANIM3]
+    context: {Ânima Educação: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Arandu
+    class: companhia
+    aliases: [ARND3]
+  - term: Armac
+    class: companhia
+    aliases: [ARML3]
+  - term: Assaí
+    class: companhia
+    aliases: [ASAI3]
+  - term: Atom Educação
+    class: companhia
+    aliases: [ATED3]
+    context: {Atom Educação: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Automob
+    class: companhia
+    aliases: [AMOB3]
+  - term: Axia Energia
+    class: companhia
+    aliases: [Eletrobras, AXIA3, AXIA7, AXIA5, AXIA6, ELET3, ELET5, ELET6]
+  - term: Azevedo & Travassos
+    class: companhia
+    aliases: [AZEV3, AZEV4]
+  - term: AZT Energia
+    class: companhia
+    aliases: [AZTE3]
+  - term: Azul
+    class: companhia
+    aliases: [AZUL3]
+    context: {Azul: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Azzas 2154
+    class: companhia
+    aliases: [Azzas, Arezzo, Arezzo&Co, AZZA3, ARZZ3, SOMA3]
+  - term: B100
+    class: companhia
+    aliases: [B100 S.A., B1003]
+    context: {B100: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: B3
+    class: companhia
+    aliases: [B3SA3]
+    context: {B3: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Banco ABC Brasil
+    class: companhia
+    aliases: [ABCB3, ABCB4]
+  - term: Banco BMG
+    class: companhia
+  - term: Banco Bradesco
+    class: companhia
+    aliases: [BBDC3, BBDC4]
+  - term: Banco da Amazônia
+    class: companhia
+    aliases: [BAZA3]
+  - term: Banco de Brasília
+    class: companhia
+    aliases: [BSLI3, BSLI4]
+  - term: Banco do Brasil
+    class: companhia
+    aliases: [BBAS11, BBAS3]
+  - term: Banco do Nordeste
+    class: companhia
+  - term: Banco Mercantil de Investimentos
+    class: companhia
+    aliases: [BMIN3, BMIN4]
+  - term: Banco Mercantil do Brasil
+    class: companhia
+    aliases: [BMEB3, BMEB4]
+  - term: Banco Pine
+    class: companhia
+    aliases: [PINE3, PINE4]
+  - term: Banco Santander
+    class: companhia
+    aliases: [SANB11, SANB3, SANB4]
+  - term: Banese
+    class: companhia
+    aliases: [BGIP3, BGIP4]
+  - term: Banestes
+    class: companhia
+    aliases: [BEES3, BEES4]
+  - term: Banrisul
+    class: companhia
+  - term: Bardella
+    class: companhia
+  - term: Baumer
+    class: companhia
+    aliases: [BALM3, BALM4]
+  - term: BB Seguridade
+    class: companhia
+    aliases: [BBSE3]
+  - term: Bemobi
+    class: companhia
+    aliases: [BMOB3]
+  - term: Bioma
+    class: companhia
+    aliases: [BIED3]
+  - term: Biomm
+    class: companhia
+    aliases: [BIOM11, BIOM3]
+  - term: Blau Farmacêutica
+    class: companhia
+    aliases: [BLAU3]
+  - term: Boa Safra Sementes
+    class: companhia
+    aliases: [SOJA3]
+    context: {Boa Safra Sementes: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Bombril
+    class: companhia
+    aliases: [BOBR3, BOBR4]
+    context: {Bombril: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Bradespar
+    class: companhia
+    aliases: [BRAP3, BRAP4]
+  - term: Bradsaúde
+    class: companhia
+    aliases: [Odontoprev, SAUD3, ODPV3]
+  - term: BrasilAgro
+    class: companhia
+    aliases: [AGRO3]
+  - term: Braskem
+    class: companhia
+  - term: Brava Energia
+    class: companhia
+    aliases: [3R Petroleum, Enauta, BRAV3, ENAT3, RRRP3]
+    context: {Brava Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Brisanet
+    class: companhia
+  - term: C&A
+    class: companhia
+    aliases: [CEAB3]
+    context: {C&A: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Caixa Seguridade
+    class: companhia
+    aliases: [CXSE3]
+    context: {Caixa Seguridade: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Cambuci
+    class: companhia
+    aliases: [CAMB3]
+    context: {Cambuci: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Camil Alimentos
+    class: companhia
+    aliases: [CAML3]
+  - term: Casas Bahia
+    class: companhia
+    aliases: [BHIA3, VIIA3, VVAR3]
+    context: {Casas Bahia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: CBA
+    class: companhia
+    aliases: [CBAV3]
+    context: {CBA: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: CEB
+    class: companhia
+    aliases: [CEBR3, CEBR5, CEBR6]
+    context: {CEB: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Cedro Têxtil
+    class: companhia
+    aliases: [CEDO3, CEDO4]
+    context: {Cedro Têxtil: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Celesc
+    class: companhia
+    aliases: [CLSC3, CLSC4]
+  - term: Celgpar
+    class: companhia
+    aliases: [GPAR3]
+  - term: Cemepe
+    class: companhia
+    aliases: [MAPT3, MAPT4]
+  - term: Coelba
+    class: companhia
+    aliases: [Neoenergia Coelba, CEEB3, CEEB5, CEEB6]
+  - term: Coelce
+    class: companhia
+    aliases: [Enel Distribuição Ceará, Enel Ceará, COCE3, COCE5, COCE6]
+    context: {Coelce: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Cogna
+    class: companhia
+    aliases: [COGN3]
+  - term: Comgás
+    class: companhia
+    aliases: [CGAS3, CGAS5]
+  - term: Compass
+    class: companhia
+    aliases: [PASS3]
+    context: {Compass: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Construtora Tenda
+    class: companhia
+    aliases: [TEND3]
+    context: {Construtora Tenda: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Contax
+    class: companhia
+    aliases: [CTAX3]
+    context: {Contax: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Copel
+    class: companhia
+    aliases: [CPLE3]
+  - term: Cosan
+    class: companhia
+    aliases: [CSAN3]
+  - term: Cruzeiro do Sul Educacional
+    class: companhia
+    aliases: [CSED3]
+    context: {Cruzeiro do Sul Educacional: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: CSN Mineração
+    class: companhia
+    aliases: [CMIN3]
+  - term: CSU Digital
+    class: companhia
+    aliases: [CSU Cardsystem, CSUD3, CARD3]
+  - term: Cury
+    class: companhia
+    aliases: [CURY3]
+    context: {Cury: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: CVC
+    class: companhia
+    context: {CVC: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Cyrela
+    class: companhia
+    aliases: [CYRE3, CYRE4]
+  - term: D1000 Varejo Farma
+    class: companhia
+  - term: Dasa
+    class: companhia
+    aliases: [DASA3]
+    context: {Dasa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Desktop
+    class: companhia
+    aliases: [DESK3]
+    context: {Desktop: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Dexco
+    class: companhia
+    aliases: [Duratex, DXCO3, DTEX3]
+  - term: Dexxos
+    class: companhia
+    aliases: [DEXP3, DEXP4]
+  - term: Dimed
+    class: companhia
+  - term: Direcional
+    class: companhia
+    aliases: [DIRR3]
+    context: {Direcional: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Döhler
+    class: companhia
+    aliases: [DOHL3, DOHL4]
+  - term: Dotz
+    class: companhia
+    aliases: [DOTZ3]
+    context: {Dotz: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Dtcom
+    class: companhia
+    aliases: [DTCY3, DTCY4]
+  - term: Economatica
+    class: companhia
+    aliases: [ECOM3]
+    context: {Economatica: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: EcoRodovias
+    class: companhia
+    aliases: [ECOR3]
+  - term: Electro Aço Altona
+    class: companhia
+    aliases: [EALT3, EALT4]
+  - term: Elektro
+    class: companhia
+    aliases: [Neoenergia Elektro, EKTR3, EKTR4]
+    context: {Elektro: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: EMAE
+    class: companhia
+    aliases: [EMAE3, EMAE4]
+    context: {EMAE: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Embpar Participações
+    class: companhia
+    aliases: [EPAR3]
+  - term: Embraer
+    class: companhia
+    aliases: [EMBJ3, EMBR3]
+  - term: Energisa
+    class: companhia
+    aliases: [ENGI11, ENGI3, ENGI4]
+    context: {Energisa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Energisa MT
+    class: companhia
+    aliases: [ENMT3, ENMT4]
+  - term: Eneva
+    class: companhia
+    aliases: [ENEV3]
+  - term: Enjoei
+    class: companhia
+    aliases: [ENJU3]
+    context: {Enjoei: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Equatorial Energia
+    class: companhia
+    aliases: [EQTL3]
+    context: {Equatorial Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Equatorial Energia Pará
+    class: companhia
+    aliases: [EQPA3, EQPA5, EQPA6, EQPA7]
+    context: {Equatorial Energia Pará: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Equatorial Maranhão
+    class: companhia
+    aliases: [EQMA3B, EQMA5B, EQMA6B]
+    context: {Equatorial Maranhão: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Espaçolaser
+    class: companhia
+    aliases: [ESPA3]
+  - term: Estapar
+    class: companhia
+    aliases: [ALPK3]
+  - term: Estrela
+    class: companhia
+    aliases: [ESTR3, ESTR4]
+    context: {Estrela: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Eternit
+    class: companhia
+    aliases: [ETER3]
+    context: {Eternit: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Eucatex
+    class: companhia
+    aliases: [EUCA3, EUCA4]
+  - term: Even
+    class: companhia
+    aliases: [EVEN3]
+    context: {Even: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: EZTEC
+    class: companhia
+    aliases: [EZTC3]
+  - term: Ferbasa
+    class: companhia
+    aliases: [FESA3, FESA4]
+  - term: Fertilizantes Heringer
+    class: companhia
+    aliases: [FHER3]
+  - term: Fica
+    class: companhia
+    aliases: [FIEI3]
+    context: {Fica: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Fleury
+    class: companhia
+    aliases: [FLRY3]
+  - term: Fras-le
+    class: companhia
+    aliases: [FRAS3]
+  - term: Gafisa
+    class: companhia
+    aliases: [GFSA3]
+    context: {Gafisa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: General Shopping & Outlets
+    class: companhia
+    context: {General Shopping & Outlets: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Gerdau
+    class: companhia
+    aliases: [GGBR3, GGBR4]
+  - term: GPA
+    class: companhia
+    aliases: [PCAR3]
+    context: {GPA: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: GPS
+    class: companhia
+    aliases: [GGPS3]
+    context: {GPS: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Grazziotin
+    class: companhia
+    aliases: [CGRA3, CGRA4]
+  - term: Grendene
+    class: companhia
+  - term: Grupo Mateus
+    class: companhia
+    aliases: [GMAT3]
+    context: {Grupo Mateus: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Grupo SBF
+    class: companhia
+  - term: Grupo Vamos
+    class: companhia
+    aliases: [VAMO3]
+    context: {Grupo Vamos: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Guararapes
+    class: companhia
+    aliases: [RIAA3]
+    context: {Guararapes: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Habitasul
+    class: companhia
+  - term: Haga
+    class: companhia
+    aliases: [HAGA3, HAGA4]
+    context: {Haga: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Hapvida
+    class: companhia
+    aliases: [HAPV3]
+  - term: HBR Realty
+    class: companhia
+    aliases: [HBRE3]
+  - term: Helbor
+    class: companhia
+    aliases: [HBOR3]
+  - term: Hidrovias do Brasil
+    class: companhia
+    aliases: [HBSA3]
+    context: {Hidrovias do Brasil: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Hotéis Othon
+    class: companhia
+    aliases: [HOOT3, HOOT4]
+  - term: Hypera
+    class: companhia
+    aliases: [HYPE3]
+  - term: Iguatemi
+    class: companhia
+    aliases: [Jereissati Participações, IGTI11, IGTI3, IGTI4, IGTA3, JPSA3]
+  - term: IMC Alimentação
+    class: companhia
+    aliases: [MEAL3]
+    context: {IMC Alimentação: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Indústrias ROMI
+    class: companhia
+    aliases: [ROMI3]
+  - term: Inepar
+    class: companhia
+    aliases: [INEP3, INEP4]
+  - term: Infracommerce
+    class: companhia
+    aliases: [IFCM3]
+  - term: Intelbras
+    class: companhia
+    aliases: [INTB3]
+    context: {Intelbras: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Investimentos Bemge
+    class: companhia
+    aliases: [FIGE3, FIGE4]
+  - term: Iochpe-Maxion
+    class: companhia
+    aliases: [MYPK3]
+  - term: Irani
+    class: companhia
+    aliases: [RANI3]
+  - term: IRB Brasil RE
+    class: companhia
+    aliases: [IRBR3]
+  - term: Itaú Unibanco
+    class: companhia
+    aliases: [ITUB3, ITUB4]
+  - term: Itaúsa
+    class: companhia
+    aliases: [ITSA3, ITSA4]
+  - term: Jalles Machado
+    class: companhia
+    aliases: [JALL3]
+  - term: JHSF
+    class: companhia
+    context: {JHSF: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: João Fortes
+    class: companhia
+    aliases: [JFEN3]
+    context: {João Fortes: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Josapar
+    class: companhia
+    aliases: [JOPA3, JOPA4]
+  - term: JSL
+    class: companhia
+    context: {JSL: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Karsten
+    class: companhia
+    aliases: [CTKA3, CTKA4]
+  - term: Kepler Weber
+    class: companhia
+    aliases: [KEPL3]
+  - term: Lavvi Incorporadora
+    class: companhia
+    aliases: [LAVV3]
+  - term: Light
+    class: companhia
+    aliases: [LIGT3]
+    context: {Light: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Localiza
+    class: companhia
+    aliases: [RENT3, RENT4]
+    context: {Localiza: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Locaweb
+    class: companhia
+    aliases: [LWSA3]
+  - term: LOG
+    class: companhia
+    aliases: [LOG CP, LOGG3]
+    context: {LOG: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Log-In
+    class: companhia
+    aliases: [LOGN3]
+    context: {Log-In: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Lojas Marisa
+    class: companhia
+    aliases: [AMAR3]
+    context: {Lojas Marisa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Lojas Quero-Quero
+    class: companhia
+    aliases: [LJQQ3]
+    context: {Lojas Quero-Quero: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Lojas Renner
+    class: companhia
+    aliases: [LREN3]
+  - term: Lopes
+    class: companhia
+    context: {Lopes: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Lupatech
+    class: companhia
+    aliases: [LUPA3]
+  - term: M. Dias Branco
+    class: companhia
+    aliases: [MDIA3]
+    context: {M. Dias Branco: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Magazine Luiza
+    class: companhia
+    aliases: [MGLU3]
+    context: {Magazine Luiza: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Mahle Metal Leve
+    class: companhia
+    aliases: [LEVE3]
+  - term: Mangels
+    class: companhia
+    aliases: [MGEL3, MGEL4]
+  - term: Marcopolo
+    class: companhia
+    aliases: [POMO3, POMO4]
+    context: {Marcopolo: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Mater Dei
+    class: companhia
+    aliases: [MATD3]
+    context: {Mater Dei: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: MBRF
+    class: companhia
+    aliases: [MBRF Global Foods, Marfrig]
+    context: {MBRF: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Méliuz
+    class: companhia
+    aliases: [CASH3]
+  - term: Melnick
+    class: companhia
+    aliases: [MELK3]
+  - term: Metalúrgica Gerdau
+    class: companhia
+    aliases: [GOAU3, GOAU4]
+  - term: Metalúrgica Riosulense
+    class: companhia
+  - term: Metisa
+    class: companhia
+    aliases: [MTSA3, MTSA4]
+  - term: Mills
+    class: companhia
+    aliases: [MILS3]
+    context: {Mills: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Minerva
+    class: companhia
+    aliases: [BEEF3]
+    context: {Minerva: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Minupar
+    class: companhia
+  - term: Mitre Realty
+    class: companhia
+    aliases: [MTRE3]
+  - term: Monark
+    class: companhia
+  - term: Motiva
+    class: companhia
+    aliases: [Grupo CCR, MOTV3, CCRO3]
+    context: {Motiva: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Moura Dubeux
+    class: companhia
+    aliases: [MDNE3]
+  - term: Movida
+    class: companhia
+    aliases: [MOVI3]
+    context: {Movida: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: MRS Logística
+    class: companhia
+  - term: MRV
+    class: companhia
+    aliases: [MRVE3]
+    context: {MRV: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Multi
+    class: companhia
+    aliases: [Multilaser, MLAS3]
+    context: {Multi: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Multiplan
+    class: companhia
+    aliases: [MULT3]
+  - term: Mundial
+    class: companhia
+    context: {Mundial: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Natura
+    class: companhia
+    aliases: [Natura &Co, NATU3, NTCO3]
+    context: {Natura: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Nexpe
+    class: companhia
+    aliases: [Brasil Brokers, NEXP3, BBRK3]
+  - term: Nordon
+    class: companhia
+    aliases: [NORD3]
+  - term: Nutriplant
+    class: companhia
+  - term: OceanPact
+    class: companhia
+    aliases: [OPCT3]
+  - term: Oncoclínicas
+    class: companhia
+    aliases: [ONCO3]
+  - term: OranjeBTC
+    class: companhia
+    aliases: [OrangeBTC, OBTC11, OBTC3, OBTC6]
+  - term: Orizon
+    class: companhia
+    aliases: [ORVR3]
+    context: {Orizon: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: OSX Brasil
+    class: companhia
+    aliases: [OSXB3]
+  - term: Ourofino Saúde Animal
+    class: companhia
+    aliases: [OFSA3]
+    context: {Ourofino Saúde Animal: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Padtec
+    class: companhia
+  - term: Pague Menos
+    class: companhia
+  - term: Panatlântica
+    class: companhia
+    aliases: [PATI3, PATI4]
+  - term: Paranapanema
+    class: companhia
+    aliases: [PMAM3]
+    context: {Paranapanema: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Participações Aliança da Bahia
+    class: companhia
+    aliases: [PEAB3, PEAB4]
+    context: {Participações Aliança da Bahia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: PDG Realty
+    class: companhia
+  - term: Petrobras
+    class: companhia
+    aliases: [PETR3, PETR4]
+  - term: PetroRecôncavo
+    class: companhia
+    aliases: [RECV3]
+  - term: Plano&Plano
+    class: companhia
+    context: {Plano&Plano: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Plascar
+    class: companhia
+    aliases: [PLAS3]
+  - term: Porto Seguro
+    class: companhia
+    aliases: [PSSA3]
+    context: {Porto Seguro: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Porto Sudeste
+    class: companhia
+    aliases: [Porto Sudeste VM]
+    context: {Porto Sudeste: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Portobello
+    class: companhia
+    context: {Portobello: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Positivo
+    class: companhia
+    aliases: [POSI3]
+    context: {Positivo: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: PPLA
+    class: companhia
+    aliases: [PPLA11]
+    context: {PPLA: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Priner
+    class: companhia
+  - term: PRIO
+    class: companhia
+    aliases: [PetroRio, PRIO3]
+    context: {PRIO: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Profarma
+    class: companhia
+  - term: Qualicorp
+    class: companhia
+    aliases: [QUAL3]
+  - term: RaiaDrogasil
+    class: companhia
+    aliases: [RADL3]
+  - term: Raízen
+    class: companhia
+    aliases: [RAIZ3, RAIZ4]
+    context: {Raízen: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Randon
+    class: companhia
+    aliases: [RAPT3, RAPT4]
+    context: {Randon: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: RDVC City
+    class: companhia
+    aliases: [Belora RDVC City, Redevco Properties, CCTY3]
+  - term: Recrusul
+    class: companhia
+    aliases: [RCSL3, RCSL4]
+  - term: Rede D'Or
+    class: companhia
+    aliases: [RDOR3]
+    context: {Rede D'Or: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Rede Energia
+    class: companhia
+    aliases: [REDE3]
+    context: {Rede Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Renova Energia
+    class: companhia
+    aliases: [RNEW3, RNEW4]
+    context: {Renova Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Revee
+    class: companhia
+    aliases: [Revee S.A., RVEE3]
+  - term: Rio Paranapanema Energia
+    class: companhia
+    aliases: [GEPA3, GEPA4]
+    context: {Rio Paranapanema Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Rumo
+    class: companhia
+    aliases: [RAIL3]
+    context: {Rumo: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Sanepar
+    class: companhia
+    aliases: [SAPR11, SAPR3, SAPR4]
+  - term: Sansuy
+    class: companhia
+    aliases: [SNSY3, SNSY5, SNSY6]
+  - term: São Carlos
+    class: companhia
+    aliases: [SCAR3]
+    context: {São Carlos: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: São Martinho
+    class: companhia
+    aliases: [SMTO3]
+    context: {São Martinho: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: São Paulo Turismo
+    class: companhia
+    aliases: [AHEB3, AHEB5, AHEB6]
+    context: {São Paulo Turismo: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Schulz
+    class: companhia
+  - term: Sequoia Logística
+    class: companhia
+    aliases: [SEQL3]
+    context: {Sequoia Logística: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Ser Educacional
+    class: companhia
+    aliases: [SEER3]
+    context: {Ser Educacional: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Siderúrgica Nacional
+    class: companhia
+    aliases: [CSNA3]
+    context: {Siderúrgica Nacional: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Simpar
+    class: companhia
+    aliases: [SIMH3]
+  - term: SLC Agrícola
+    class: companhia
+    aliases: [SLCE3]
+  - term: Smart Fit
+    class: companhia
+    context: {Smart Fit: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Sondotécnica
+    class: companhia
+    aliases: [SOND3, SOND5, SOND6]
+  - term: Suzano
+    class: companhia
+    context: {Suzano: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: SYN
+    class: companhia
+    aliases: [SYNE3]
+    context: {SYN: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Taurus
+    class: companhia
+    aliases: [TASA3, TASA4]
+    context: {Taurus: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Technos
+    class: companhia
+    aliases: [TECN3]
+    context: {Technos: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Tecnisa
+    class: companhia
+    aliases: [TCSA3]
+    context: {Tecnisa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Tegma
+    class: companhia
+    aliases: [TGMA3]
+  - term: Telebras
+    class: companhia
+    aliases: [TELB3, TELB4]
+  - term: Terra Santa
+    class: companhia
+    aliases: [LAND3]
+    context: {Terra Santa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: TIM
+    class: companhia
+    aliases: [TIM Participações, TIMS3, TIMP3]
+    context: {TIM: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Toky
+    class: companhia
+    aliases: [TOKY3]
+    context: {Toky: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Totvs
+    class: companhia
+    aliases: [TOTS3]
+  - term: Track & Field
+    class: companhia
+    aliases: [TFCO3, TFCO4]
+    context: {Track & Field: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Trevisa
+    class: companhia
+    context: {Trevisa: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Trisul
+    class: companhia
+    aliases: [TRIS3]
+  - term: Triunfo
+    class: companhia
+    aliases: [TPIS3]
+    context: {Triunfo: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Tronox Pigmentos
+    class: companhia
+  - term: Tupy
+    class: companhia
+    aliases: [TUPY3]
+    context: {Tupy: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Ultrapar
+    class: companhia
+    aliases: [UGPA3]
+  - term: União Pet
+    class: companhia
+    aliases: [Cobasi, PetzCobasi, Petz Cobasi, AUAU3, PETZ3]
+    context: {União Pet: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Unicasa
+    class: companhia
+    aliases: [UCAS3]
+  - term: Unifique
+    class: companhia
+    aliases: [FIQE3]
+  - term: Unipar
+    class: companhia
+    aliases: [UNIP3, UNIP5, UNIP6]
+  - term: Usiminas
+    class: companhia
+    aliases: [USIM3, USIM5, USIM6]
+    context: {Usiminas: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Vale
+    class: companhia
+    aliases: [VALE3]
+    context: {Vale: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Valid
+    class: companhia
+    aliases: [VLID3]
+    context: {Valid: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Veste
+    class: companhia
+    aliases: [Le Lis Blanc, Le Lis, VSTE3]
+    context: {Veste: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Vibra Energia
+    class: companhia
+    aliases: [BR Distribuidora, Petrobras Distribuidora, VBBR3]
+    context: {Vibra Energia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Vitru
+    class: companhia
+    aliases: [Vitru Educação, VTRU3]
+  - term: Vittia
+    class: companhia
+    aliases: [VITT3]
+    context: {Vittia: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Vivara
+    class: companhia
+    aliases: [VIVA3]
+    context: {Vivara: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Viveo
+    class: companhia
+    aliases: [VVEO3]
+  - term: Viver
+    class: companhia
+    aliases: [VIVR3]
+    context: {Viver: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Vivo
+    class: companhia
+    aliases: [VIVT3]
+    context: {Vivo: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Vulcabras
+    class: companhia
+    aliases: [VULC3]
+  - term: WDC Networks
+    class: companhia
+  - term: WEG
+    class: companhia
+    aliases: [WEGE3]
+    context: {WEG: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Westwing
+    class: companhia
+    aliases: [WEST3]
+  - term: Whirlpool
+    class: companhia
+    context: {Whirlpool: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: Wiz Co
+    class: companhia
+    aliases: [Wiz Soluções, WIZC3, WIZS3]
+  - term: WLM
+    class: companhia
+    aliases: [WLMM3, WLMM4]
+    context: {WLM: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
+  - term: YDUQS
+    class: companhia
+    aliases: [YDUQ3]
+  # <<< fim da parte gerada
 unit_rules:
   - pattern: "numero + (B | bit | bi | be)"
     replacement: "numero bi"
