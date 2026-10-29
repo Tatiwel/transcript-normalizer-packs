@@ -1,0 +1,676 @@
+ticker,nome,classe,apelidos,tickers_antigos,palavra_comum,usar_no_pack,status,nota,origem
+2WAV3,2W Ecobank,ON (balcão organizado),2w Ecobank,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+A6OP3,Acessopar Investimentos e Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AALR3,Alliança,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ABCB3,Banco ABC Brasil,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ABCB4,Banco ABC Brasil,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ABEV3,Ambev,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AERI3,Aeris Energy,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AESO3,Auren Operações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AFLT3,Afluente T,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AGBK11,Banco Agibank,Unit,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AGBK4,Banco Agibank,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AGRA4,Agrale,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AGRO3,BrasilAgro,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AGXY3,AgroGalaxy,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AHEB3,São Paulo Turismo,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AHEB5,São Paulo Turismo,PNA,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AHEB6,São Paulo Turismo,PNB,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALLD3,Allied,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALOS3,Allos,ON,Aliansce Sonae; Aliansce; brMalls,ALSO3; BRML3,,sim,conferido,Fusão Aliansce Sonae + brMalls (2023),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALPA3,Alpargatas,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALPA4,Alpargatas,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALPK3,Estapar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALUP11,Alupar,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALUP3,Alupar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ALUP4,Alupar,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AMAR3,Lojas Marisa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AMBP3,Ambipar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AMER3,Americanas,ON,Lojas Americanas; B2W,BTOW3; LAME3; LAME4,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AMOB3,Automob,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AMZG11,Amazonas Energia,Unit,Amazonas Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AMZG3,Amazonas Energia,ON,Amazonas Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ANIM3,Ânima Educação,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+APTI3,Aliperti,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+APTI4,Aliperti,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ARML3,Armac,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ARND3,Arandu,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ASAI3,Assaí,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ATEA3,Athena Saúde,ON,Athena Saude Brasil,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ATED3,Atom Educação,ON,Atom; Atom Educação e Editora,,,sim,conferido,Nome vinha em caixa alta com razão social,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AUAU3,União Pet,ON,Petz; Cobasi; PetzCobasi; Petz Cobasi,PETZ3,,sim,conferido,Fusão Petz + Cobasi; negocia como AUAU3 desde 05/01/2026. Razão social na B3: União Pet Participações S.A.,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AURE3,Auren Energia,ON,CESP,CESP3; CESP5; CESP6,,sim,conferido,Reorganização CESP/VTRM virou Auren (2022),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AVLL3,Alphaville,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AXIA3,Axia Energia,ON,Axia; Eletrobras,ELET3; ELET5; ELET6; AXIA5; AXIA6,,sim,conferido,Eletrobras virou Axia Energia (out/2025); Eletrobras vira apelido,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AXIA7,Axia Energia,PNC,Axia; Eletrobras,ELET3; ELET5; ELET6; AXIA5; AXIA6,,sim,conferido,"Eletrobras virou Axia Energia (10/11/2025). PNC em resgate parcial por rodadas (6ª aprovada em 20/10/2026, CVM prot. 1578524); ticker ainda existe",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZEV3,Azevedo & Travassos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZEV4,Azevedo & Travassos,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZTE3,AZT Energia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZUL3,Azul,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZUL97,Azul,Cesta de bônus de subscrição (cadastrada como UNT),,,sim,nao,conferido,"Cesta de bônus de subscrição da reestruturação da Azul (fev/2026), conforme Ofício Circular B3 034/2026-VNC; não é ação",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZUL98,Azul,Cesta de bônus de subscrição (cadastrada como UNT),,,sim,nao,conferido,"Cesta de bônus de subscrição da reestruturação da Azul (fev/2026), conforme Ofício Circular B3 034/2026-VNC; não é ação",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZUL99,Azul,Cesta de bônus de subscrição (cadastrada como UNT),,,sim,nao,conferido,"Cesta de bônus de subscrição da reestruturação da Azul (fev/2026), conforme Ofício Circular B3 034/2026-VNC; não é ação",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+AZZA3,Azzas 2154,ON,Azzas; Arezzo; Arezzo&Co; Soma,ARZZ3; SOMA3,,sim,conferido,Fusão Arezzo + Soma. Em set/2026 foi anunciada divisão em Arezzo&Co e Soma (pendente de aprovação); revisar quando concluir,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+B1003,B100,ON,B100 S.A.,,,sim,conferido,Nome vinha igual ao ticker,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+B3SA3,B3,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BALM3,Baumer,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BALM4,Baumer,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BAUH3,Excelsior Alimentos,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BAUH4,Excelsior Alimentos,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BAZA3,Banco da Amazônia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BBAS11,Banco do Brasil,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BBAS3,Banco do Brasil,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BBDC3,Banco Bradesco,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BBDC4,Banco Bradesco,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BBML3,BBM Logística,ON,Bbm Logistica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BBSE3,BB Seguridade,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BCEE3,Banco Besa,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BCEE5,Banco Besa,PNA,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BCPS3,Claro,ON,,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BCPS4,Claro,PN,,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BDLL3,Bardella,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BDLL4,Bardella,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BEEF3,Minerva,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BEES3,Banestes,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BEES4,Banestes,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BEGB4,Banco Berj,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BETP3,Betapart Participações,ON,Betapart Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BFFT3,Bluefit,ON (balcão organizado),Bluefit Academias de Ginástica e Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BGIP3,Banese,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BGIP4,Banese,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BHIA3,Casas Bahia,ON,Via; Via Varejo,VIIA3; VVAR3,,sim,conferido,Via Varejo → Via (2021) → Grupo Casas Bahia (2023),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BIED3,Bioma,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BIOM11,Biomm,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BIOM3,Biomm,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BLAU3,Blau Farmacêutica,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMEB3,Banco Mercantil do Brasil,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMEB4,Banco Mercantil do Brasil,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMGB3,Banco BMG,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMGB4,Banco BMG,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMIN3,Banco Mercantil de Investimentos,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMIN4,Banco Mercantil de Investimentos,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMKS3,Monark,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BMOB3,Bemobi,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BNAC3,Banco Nacional,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BNAC4,Banco Nacional,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BNBR3,Banco do Nordeste,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BNRG3,Brazil Energy,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BOBR3,Bombril,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BOBR4,Bombril,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BPAC11,Banco BTG Pactual,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BPAC3,Banco BTG Pactual,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BPAC5,Banco BTG Pactual,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BPAC6,Banco BTG Pactual,PNB,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BPAR3,Banpará,ON,Banco do Estado do Pará; Banco Estado do Para,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRAP3,Bradespar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRAP4,Bradespar,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRAV3,Brava Energia,ON,3R Petroleum; 3R; Enauta,RRRP3; ENAT3,,sim,conferido,3R Petroleum virou Brava Energia após incorporar a Enauta (2024),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRBI11,BR Partners,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRBI3,BR Partners,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRBI4,BR Partners,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRKM3,Braskem,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRKM5,Braskem,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRKM6,Braskem,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRQB3,BRQ,ON,BRQ Soluções em Informática; Brq Solucoes em Informatica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRSR3,Banrisul,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRSR5,Banrisul,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRSR6,Banrisul,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BRST3,Brisanet,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BSLI3,Banco de Brasília,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BSLI4,Banco de Brasília,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BVEN11,Boa Vista Energia,Unit,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+BVEN3,Boa Vista Energia,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+C1GT3,Celg T,ON (balcão organizado),Celg Transmissão; Celg Transmissão S.a. - Celg T,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CALI3,Construtora Adolpho Lindenberg,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CAMB3,Cambuci,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CAML3,Camil Alimentos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CASH3,Méliuz,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CASN3,Casan,ON,Companhia Catarinense de Águas e Saneamento,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CASN4,Casan,PN,Companhia Catarinense de Águas e Saneamento,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CATA3,Companhia Industrial Cataguases,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CATA4,Companhia Industrial Cataguases,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CBAV3,CBA,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CBEE3,Ampla Energia,ON,Ampla; Enel Distribuição Rio; Enel Rio,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CCAT3,Comfio,ON,Companhia Catarinense de Fiação,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CCAT4,Comfio,PN,Companhia Catarinense de Fiação,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CCTY3,RDVC City,ON,Belora RDVC City; Redevco Properties,,,sim,conferido,"Razão social atual Belora RDVC City; nome anterior Redevco Properties (mesmo CNPJ na CVM). ""Redveco"" era erro de grafia na fonte original",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAB3,C&A,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAC11,Energisa Acre,Unit,Energisa Acre - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAC3,Energisa Acre,ON,Energisa Acre - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAC4,Energisa Acre,PN,Energisa Acre - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAG3,CEAGESP,ON,Companhia de Entrepostos e Armazéns Gerais de São Paulo,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAL11,Equatorial Alagoas,Unit (balcão organizado),Equatorial Alagoas - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAL3,Equatorial Alagoas,ON (balcão organizado),Equatorial Alagoas - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAL4,Equatorial Alagoas,PN (balcão organizado),Equatorial Alagoas - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEAP3,CEA,ON (balcão organizado),Companhia de Eletricidade do Amapá,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEBD3,Neoenergia Brasília,ON,Neoenergia Distribuição Brasília; CEB Distribuição,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEBR3,CEB,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEBR5,CEB,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEBR6,CEB,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEDO3,Cedro Têxtil,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEDO4,Cedro Têxtil,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEEB3,Coelba,ON,Neoenergia Coelba,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEEB5,Coelba,PNA,Neoenergia Coelba,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEEB6,Coelba,PNB,Neoenergia Coelba,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEED3,CEEE-D,ON,CEEE Equatorial; Companhia Estadual de Distribuição de Energia Elétrica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEED4,CEEE-D,PN,CEEE Equatorial; Companhia Estadual de Distribuição de Energia Elétrica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEEP3,CEEE-Par,ON,Companhia Estadual de Energia Elétrica Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CEGR3,CEG,ON,Naturgy Rio; Companhia Distribuidora de Gás do Rio de Janeiro,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CERO3,Energisa Rondônia,ON,Energisa Rondonia - Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CESA3,CESA,ON,Companhia Estadual de Silos e Armazéns,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CFHO3,Carvalho Holdings,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CFHO4,Carvalho Holdings,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CGAS3,Comgás,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CGAS5,Comgás,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CGOS3,Equatorial Goiás,ON,Equatorial Goias Distribuidora de Energia; Celg D,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CGRA3,Grazziotin,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CGRA4,Grazziotin,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CLNT3,Claranet Technology,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CLSC3,Celesc,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CLSC4,Celesc,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CMIG3,Cemig,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CMIG4,Cemig,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CMIN3,CSN Mineração,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CMNS3,CMN Solutions,ON,Cmn Solutions Ao18 Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CNRT5,Cicanorte,PNA,Cicanorte Indústria de Conservas Alimentícias,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+COCE3,Coelce,ON,Enel Distribuição Ceará; Enel Ceará,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+COCE5,Coelce,PNA,Enel Distribuição Ceará; Enel Ceará,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+COCE6,Coelce,PNB,Enel Distribuição Ceará; Enel Ceará,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+COCN5,Companhia de Cocos do Nordeste,PNA,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+COGN3,Cogna,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+COMR3,Comerc Energia,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CONX3,Triple Play Brasil Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPCH3,Capital Center Hotéis,ON,Capital Center Hoteis,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPCH7,Capital Center Hotéis,PNC,Capital Center Hoteis,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPFE3,CPFL Energia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPIS11,Equatorial Piauí,Unit,Equatorial Piaui Distribuidora de Energia; Cepisa,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPIS3,Equatorial Piauí,ON,Equatorial Piaui Distribuidora de Energia; Cepisa,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPIS4,Equatorial Piauí,PN,Equatorial Piaui Distribuidora de Energia; Cepisa,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPLE3,Copel,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CPNO7,Copenor,PNC,Companhia Petroquímica do Nordeste,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRML4,Carbomil,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRPC4,CRP Caderi,PN,Crp Caderi Capital de Risco,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRPG3,Tronox Pigmentos,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRPG5,Tronox Pigmentos,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRPG6,Tronox Pigmentos,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRTE3,CRT,ON,Concessionária Rio-Teresópolis; Conc Rio-teresopolis,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CRTE5,CRT,PNA,Concessionária Rio-Teresópolis; Conc Rio-teresopolis,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSAL4,Casal,PN,Companhia de Saneamento de Alagoas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSAM3,Cosama,ON,Companhia de Saneamento do Amazonas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSAM4,Cosama,PN,Companhia de Saneamento do Amazonas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSAN3,Cosan,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSED3,Cruzeiro do Sul Educacional,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSMG3,Copasa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSNA3,Siderúrgica Nacional,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CSUD3,CSU Digital,ON,CSU Cardsystem; CSU,CARD3,,sim,conferido,Razão social na B3: CSU Digital S.A.,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CTAX3,Contax,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CTCA3,CTC,ON,Centro de Tecnologia Canavieira,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CTKA3,Karsten,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CTKA4,Karsten,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CTSA3,Santanense,ON,Companhia Tecidos Santanense,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CTSA4,Santanense,PN,Companhia Tecidos Santanense,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CURY3,Cury,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CVCB3,CVC,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CXSE3,Caixa Seguridade,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CYRE3,Cyrela,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+CYRE4,Cyrela,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DANA11,Dana Industrial,PNV,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DASA3,Dasa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DASS3,Dass Nordeste Calçados e Artigos Esportivos,ON (balcão organizado),,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DESK3,Desktop,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DEXP3,Dexxos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DEXP4,Dexxos,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DIRR3,Direcional,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DMVF3,D1000 Varejo Farma,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DNEN3B,Dinâmica Energia,ON (balcão organizado),Dinamica Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DOHL3,Döhler,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DOHL4,Döhler,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DOTZ3,Dotz,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DTCY3,Dtcom,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DTCY4,Dtcom,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DTEN3,Deten Química,ON,Deten Quimica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DTEN6,Deten Química,PNB,Deten Quimica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DXCO3,Dexco,ON,Duratex,DTEX3,,sim,conferido,Duratex virou Dexco (2021),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+DXXI3,Duxxi Imobiliária,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+E3XT3,Extrafarma,ON,Imifarma Produtos Farmacêuticos e Cosméticos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EALT3,Electro Aço Altona,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EALT4,Electro Aço Altona,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EBTL3,Embratel,ON,Empresa Brasileira de Telecomunicações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EC3S3,Energética Corumbá III,ON,Energetica Corumba III,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EC3S4,Energética Corumbá III,PN,Energetica Corumba III,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ECOM3,Economatica,ON,,,,sim,conferido,Nome vinha igual ao ticker,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ECOR3,EcoRodovias,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EESG3,Environmental ESG Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EF4V3,Energética Fazenda Velha,ON,Energetica Fazenda Velha,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EGCE3,Energisa Geração Eólicas RN,ON,Energisa Geracao Centrais Eolicas RN,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EGGY3,Granja Faria,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EGIE3,Engie,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EKTR3,Elektro,ON,Neoenergia Elektro,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EKTR4,Elektro,PN,Neoenergia Elektro,,,sim,conferido,Nome de marca confirmado no RI do grupo,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ELBR4,Elebra,PN,Elebra Eletrônica Brasileira,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EMAE3,EMAE,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EMAE4,EMAE,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EMBJ3,Embraer,ON,,EMBR3,,sim,conferido,"Ticker trocado de EMBR3 para EMBJ3 no fim de 2025, sem mudança de razão social",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EMBP3,Embrapar,ON,Embrapar Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EMBP4,Embrapar,PN,Embrapar Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENAC3,Cageacre,ON,Companhia de Armazéns Gerais e Entrepostos do Acre,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENEV3,Eneva,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENGI11,Energisa,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENGI3,Energisa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENGI4,Energisa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENJU3,Enjoei,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENMT3,Energisa MT,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ENMT4,Energisa MT,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EPAR3,Embpar Participações,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EPTR4,Empetur,PN,Empresa de Turismo de Pernambuco,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQMA3B,Equatorial Maranhão,ON (balcão organizado),,,,sim,conferido,MB = Mercado de Balcão no layout BVBG.028.02 do manual da B3,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQMA5B,Equatorial Maranhão,PNA (balcão organizado),,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQMA6B,Equatorial Maranhão,PNB (balcão organizado),,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQPA3,Equatorial Energia Pará,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQPA5,Equatorial Energia Pará,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQPA6,Equatorial Energia Pará,PNB,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQPA7,Equatorial Energia Pará,PNC,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EQTL3,Equatorial Energia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESGS3,ES Gás,ON,Companhia de Gás do Espírito Santo,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESGS4,ES Gás,PN,Companhia de Gás do Espírito Santo,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESPA3,Espaçolaser,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESSD3,Energisa Sul-Sudeste,ON,Energisa Sul-Sudeste Distribuidora de Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESSE5,Essência Agropecuária,PNA,Essencia Agropecuaria,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESTR3,Estrela,ON,,,sim,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ESTR4,Estrela,PN,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ETER3,Eternit,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ETGO3,Transurb,ON,Empresa de Transporte Urbano do Estado de Goiás,,,sim,verificar,"Empresa sem negócio no dia da lista original. nome conhecido ""Transurb"" não confirmado",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ETGO4,Transurb,PN,Empresa de Transporte Urbano do Estado de Goiás,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EUCA3,Eucatex,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EUCA4,Eucatex,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EUFA3,Eurofarma,ON,Eurofarma Laboratórios,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EVEN3,Even,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+EZTC3,EZTEC,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+F8DF5,Frigodias,PNA,Frigorífico Dias,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FAEL6,FAE,PNB,Ferragens e Aparelhos Elétricos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FAEL7,FAE,PNC,Ferragens e Aparelhos Elétricos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FASA3,Fasa,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FESA3,Ferbasa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FESA4,Ferbasa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FGRT5,Frigorífico Redentor,PNA (balcão organizado),Frigorifico Redentor,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FHER3,Fertilizantes Heringer,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FIEI3,Fica,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FIGE3,Investimentos Bemge,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FIGE4,Investimentos Bemge,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FIQE3,Unifique,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FLRY3,Fleury,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FMNP3,Firminópolis Transmissão,ON,Firminopolis Transmissao,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FNUV3,Fenauva,ON,Festa Nacional da Uva Turismo e Empreendimentos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FRAS3,Fras-le,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FRIO3,Metalfrio,ON,Metalfrio Solutions,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FRNV3,Franave,ON,Companhia de Navegação do São Francisco,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FTRO3,Frutos Tropicais,ON,,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GENT3,LG Lugar de Gente,ON (balcão organizado),LG Informática; Lg Informática,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GEPA3,Rio Paranapanema Energia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GEPA4,Rio Paranapanema Energia,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GFSA3,Gafisa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GGBR3,Gerdau,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GGBR4,Gerdau,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GGPS3,GPS,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GMAT3,Grupo Mateus,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GOAU3,Metalúrgica Gerdau,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GOAU4,Metalúrgica Gerdau,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GPAR3,Celgpar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GPLA5,Geplan Hotéis,PNA,Geplan Hoteis,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GRND3,Grendene,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GSHP3,General Shopping & Outlets,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+GUNI3,Grupo Uni.co,ON,Imaginarium; Uni.co,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HAGA3,Haga,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HAGA4,Haga,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HAPV3,Hapvida,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HBOR3,Helbor,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HBRE3,HBR Realty,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HBSA3,Hidrovias do Brasil,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HBTS3,Habitasul,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HBTS5,Habitasul,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HBTS6,Habitasul,PNB,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HCAR3,Hospital Care Caledonia,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HEDA3,Hedera Investimentos e Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HETA3,Hércules,ON,Hércules Fábrica de Talheres,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HETA4,Hércules,PN,Hércules Fábrica de Talheres,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HLJP3,Hotel Laje de Pedra,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HMOB3,Hmobi Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HOAM5,Tropical Hotéis da Amazônia,PNA,Companhia Tropical de Hotéis da Amazônia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HOAM6,Tropical Hotéis da Amazônia,PNB,Companhia Tropical de Hotéis da Amazônia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HOOT3,Hotéis Othon,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HOOT4,Hotéis Othon,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+HYPE3,Hypera,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IFCM3,Infracommerce,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IGSN3,Igua Saneamento,ON,,,,sim,revisado_manual,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IGTI11,Iguatemi,Unit,Jereissati Participações,IGTA3; JPSA3,,sim,conferido,Linha duplicada removida. Jereissati incorporou a Iguatemi (2021) e a companhia negocia como Iguatemi; Jereissati vira apelido,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IGTI3,Iguatemi,ON,Jereissati Participações,IGTA3; JPSA3,,sim,conferido,Linha duplicada removida. Jereissati incorporou a Iguatemi (2021) e a companhia negocia como Iguatemi; Jereissati vira apelido,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IGTI4,Iguatemi,PN,Jereissati Participações,IGTA3; JPSA3,,sim,conferido,Linha duplicada removida. Jereissati incorporou a Iguatemi (2021) e a companhia negocia como Iguatemi; Jereissati vira apelido,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+INEP3,Inepar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+INEP4,Inepar,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+INNC3,Inc Empreendimentos Imobiliários,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+INTB3,Intelbras,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IPNN3,Teste IPN VS,ON,,,,nao,revisado_manual,Ativo de teste de ambiente da B3,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IRBR3,IRB Brasil RE,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ISAE3,ISA Energia,ON,ISA CTEEP; CTEEP; Transmissão Paulista,TRPL3; TRPL4,,sim,conferido,"ISA CTEEP virou ISA Energia Brasil (nov/2024). Cuidado: TRPL11 é um FII de outra gestora (Terras Paulistas), mesmo radical",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ISAE4,ISA Energia,PN,ISA CTEEP; CTEEP; Transmissão Paulista,TRPL3; TRPL4,,sim,conferido,"ISA CTEEP virou ISA Energia Brasil (nov/2024). Cuidado: TRPL11 é um FII de outra gestora (Terras Paulistas), mesmo radical",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ITSA3,Itaúsa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ITSA4,Itaúsa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ITUB3,Itaú Unibanco,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ITUB4,Itaú Unibanco,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IVLG3B,Invitel Legacy,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IVPR3B,Invepar,ON (balcão organizado),Investimentos e Participações em Infraestrutura,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+IVPR4B,Invepar,PN (balcão organizado),Investimentos e Participações em Infraestrutura,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JALL3,Jalles Machado,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JCBA6,J C Barretto Fertilizantes,PNB,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JFEN3,João Fortes,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JHSF3,JHSF,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JOPA3,Josapar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JOPA4,Josapar,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+JSLG3,JSL,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KALS5,KA 2 Laundry Services,PNA,Ka 2 Laundry Services,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KALU3,Kalunga,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KEPL3,Kepler Weber,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KLAS3,Kallas,ON,Kallas Incorporações e Construções,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KLBN11,Klabin,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KLBN3,Klabin,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+KLBN4,Klabin,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LAND3,Terra Santa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LAVV3,Lavvi Incorporadora,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LAZT3,Lago Azul Transmissão,ON,Lago Azul Transmisso,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LEVE3,Mahle Metal Leve,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LIGT3,Light,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LJQQ3,Lojas Quero-Quero,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LLBI3,Le Biscuit,ON,CVLB Brasil,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LMED3,Lifemed,ON,Lifemed Industrial de Equipamentos e Artigos Médicos e Hospitalares,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LOGG3,LOG,ON,LOG CP; LOG Commercial Properties,,sim,sim,conferido,Nome vinha como LOG CP,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LOGN3,Log-In,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LOGS3,Logasa,ON,Logasa Indústria e Comércio,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LOGS4,Logasa,PN,Logasa Indústria e Comércio,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LPSB3,Lopes,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LREN3,Lojas Renner,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LTEL3B,Litel Participações,ON (balcão organizado),Litel Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LTLA3B,Litela Participações,ON (balcão organizado),,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LUPA3,Lupatech,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LUXM3,Trevisa,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LUXM4,Trevisa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+LWSA3,Locaweb,ON,LWSA,,,sim,conferido,Razão social na B3 é LWSA S.A.; Locaweb segue como nome de marca,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MAPT3,Cemepe,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MAPT4,Cemepe,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MAQN3,Máquina de Vendas,ON,Maquina de Vendas Brasil Participações; Ricardo Eletro,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MAQN4,Máquina de Vendas,PN,Maquina de Vendas Brasil Participações; Ricardo Eletro,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MATD3,Mater Dei,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MBRF3,MBRF,ON,MBRF Global Foods; Marfrig; BRF,MRFG3; BRFS3,,sim,conferido,Fusão Marfrig + BRF (2025). Na B3 a razão social ainda aparece como Marfrig Global Foods S.A.,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MDIA3,M. Dias Branco,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MDIN3,Mundial Inc,ON,Mundial INC,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MDNE3,Moura Dubeux,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MDSI3,Mundial Ásia Hong Kong,ON,Mundial Asia Hong Kong,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MEAL3,IMC Alimentação,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MELK3,Melnick,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MGEL3,Mangels,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MGEL4,Mangels,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MGFB3,M&G Fibras,ON,M&g Fibras Holding,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MGLU3,Magazine Luiza,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MILS3,Mills,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MKSS3,MKS Soluções Integradas,ON,Mks Soluções Integradas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MLAS3,Multi,ON,Multilaser,,sim,sim,conferido,Multilaser virou Multi em 2022,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMAQ3,Minasmáquinas,ON,Minasmaquinas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMAQ4,Minasmáquinas,PN,Minasmaquinas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMBR3,Magneti Marelli do Brasil,ON,Magneti Marelli do Brasil Ind.com,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMBR4,Magneti Marelli do Brasil,PN,Magneti Marelli do Brasil Ind.com,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMCA3,Magneti Marelli Cofap Autopeças,ON,Magneti Marelli Cofap Autopecas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMCA4,Magneti Marelli Cofap Autopeças,PN,Magneti Marelli Cofap Autopecas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMCF3,Cofap,ON,Magneti Marelli Cofap Companhia Fabricadora de Peças,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MMCF4,Cofap,PN,Magneti Marelli Cofap Companhia Fabricadora de Peças,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MNBI3,Mlog,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MNDL3,Mundial,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MNPR3,Minupar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MOTV3,Motiva,ON,CCR; Grupo CCR,CCRO3,,sim,conferido,CCR virou Motiva em 2025,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MOVI3,Movida,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MPBH11,Marina Porto Búzios,ON,Marina Porto Buzios Hoteis e Turismo,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MRSA3B,MRS Logística,ON (balcão organizado),,,,sim,conferido,MB = Mercado de Balcão no layout BVBG.028.02 do manual da B3,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MRSA5B,MRS Logística,PNA (balcão organizado),,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MRSA6B,MRS Logística,PNB (balcão organizado),,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MRVE3,MRV,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MSPA3,Melhoramentos,ON,Companhia Melhoramentos de São Paulo,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MSPA4,Melhoramentos,PN,Companhia Melhoramentos de São Paulo,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTAL3,Cimetal Siderurgia,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTAL6,Cimetal Siderurgia,PNB,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTNR5,Metanor,PNA,Metanol do Nordeste,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTNR7,Metanor,PNC,Metanol do Nordeste,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTRE3,Mitre Realty,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTSA3,Metisa,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MTSA4,Metisa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MULT3,Multiplan,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MWET3,Wetzel,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MWET4,Wetzel,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MWIS6,MWI,PNB,MWI Sistema de Comunicação,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+MYPK3,Iochpe-Maxion,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NAII3,Nai Holdings,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NAII4,Nai Holdings,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NATU3,Natura,ON,Natura &Co,NTCO3,,sim,conferido,Voltou de NTCO3 para NATU3 em 04/07/2025,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NEMO3,Suzano Holding,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NESB3,Nesber,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NEXP3,Nexpe,ON,Brasil Brokers,BBRK3,,sim,conferido,Brasil Brokers mudou de nome para Nexpe,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NIPL3,Niplan Engenharia,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NKEP3,NK 031 Participações,ON,Nk 031 Empreendimentos e Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NKEP4,NK 031 Participações,PN,Nk 031 Empreendimentos e Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NODA3,Novadata,ON,Novadata Sistemas e Computadores,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NODA6,Novadata,PNB,Novadata Sistemas e Computadores,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NORD3,Nordon,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NOVI3,Nortis Incorporadora e Construtora,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NUTR3,Nutriplant,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NXVL3,Noxville Investimentos,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+NXVL4,Noxville Investimentos,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OBAH3,Grupo Fartura,ON (balcão organizado),Grupo Fartura de Hortifrut; Oba Hortifruti,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OBIO3,Oleoplan,ON,Óleos Vegetais Planalto; Oleoplan S.a - Óleos Vegetais Planalto,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OBTC11,OranjeBTC,Unit,OrangeBTC,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OBTC3,OranjeBTC,ON,OrangeBTC,,,sim,conferido,Grafia errada na fonte; a B3 escreve OranjeBTC,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OBTC6,OranjeBTC,PNB,OrangeBTC,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ODER3,Conservas Oderich,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ODER4,Conservas Oderich,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ODTR3,OTP,ON,Odebrecht Transport; Otp,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OFSA3,Ourofino Saúde Animal,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ONCO3,Oncoclínicas,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OPCT3,OceanPact,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OPDL3B,Daleth Participações,ON (balcão organizado),Daleth Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OPGM3,Gama Participações,ON,Gama Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OPSE3,Sudeste,ON,,,sim,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OPTS3,Sul 116 Participações,ON,Sul 116 Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ORNA4B,Ornato,PN (balcão organizado),Ornato Industrial de Pisos e Azulejos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ORVR3,Orizon,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OSXB3,OSX Brasil,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+OXIT11,Oxiteno,Unit,Oxiteno Indústria e Comércio,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+P4NT3,Pantanal Transmissão,ON,Pantanal Transmissao,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PASS3,Compass,ON,Compass Gás e Energia,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PATI3,Panatlântica,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PATI4,Panatlântica,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PCAR3,GPA,ON,Grupo Pão de Açúcar; Pão de Açúcar; CBD; Companhia Brasileira de Distribuição,,,sim,conferido,GPA é o nome usado pela empresa e pela imprensa,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PCBU3,Pacaembu Construtora,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PCEM11,Porto do Pecém Geração de Energia,PNB,Porto Pecem Geracao Energia,,,sim,verificar,Empresa sem negócio no dia da lista original. classe PNB não confirmada (especificação PRB P),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PCFV4,Poços de Fervedouro,PN,Pocos de Fervedouro,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PDGR3,PDG Realty,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PDTC3,Padtec,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PEAB3,Participações Aliança da Bahia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PEAB4,Participações Aliança da Bahia,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PETR3,Petrobras,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PETR4,Petrobras,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PFRM3,Profarma,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PGMN3,Pague Menos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PINE3,Banco Pine,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PINE4,Banco Pine,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PLAS3,Plascar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PLFS3,Polo Films,ON,Polo Films Indústria e Comércio,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PLPL3,Plano&Plano,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PLSP3,Plascorp Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PMAM3,Paranapanema,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PNVL3,Dimed,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+POMO3,Marcopolo,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+POMO4,Marcopolo,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+POSI3,Positivo,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PPAR3,Polpar,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PPAR4,Polpar,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PPLA11,PPLA,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PRIO3,PRIO,ON,PetroRio,,,sim,conferido,PetroRio passou a se chamar PRIO em 2022,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PRMN3B,Proman,ON (balcão organizado),Produtores Energéticos de Manso,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PRNR3,Priner,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PRPT3,Prompt Participações,ON,Prompt Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PRVA3,Privalia Brasil,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PSSA3,Porto Seguro,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PSVM11,Porto Sudeste,Unit,Porto Sudeste VM,,,sim,conferido,Nome vinha como PORTO VM,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PTBL3,Portobello,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PTBP4,Portobello Participações,PN,Portobello Participacoes Ceramicas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PTCA3,Prática Klimaquip,ON,Prática Produtos; Pratica Produtos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PTSL3,Portosul Participações,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+PTSL4,Portosul Participações,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+QUAL3,Qualicorp,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+QUSW3,Quality Software,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+QVQP3,524 Participações,ON,524 Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RADL3,RaiaDrogasil,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RAIL3,Rumo,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RAIZ3,Raízen,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RAIZ4,Raízen,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RANI3,Irani,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RAPT3,Randon,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RAPT4,Randon,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RBNS11,Rodobens,Unit,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RBNS3,Rodobens,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RBNS4,Rodobens,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RCSL3,Recrusul,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RCSL4,Recrusul,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RDOR3,Rede D'Or,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RECV3,PetroRecôncavo,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+REDE3,Rede Energia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+REFC4,Refinadora Catarinense,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RENT3,Localiza,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RENT4,Localiza,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RFAG3,AGEF,ON,Rede Federal de Armazéns Gerais Ferroviários,,,sim,verificar,"Empresa sem negócio no dia da lista original. nome conhecido ""AGEF"" não confirmado",lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RHED4,Rhede Tecnologia,PN,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RIAA3,Guararapes,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RIBC8,Ribeiro Cordeiro,PND,Ribeiro Cordeiro Indústria e Comércio; Ribeiro Cordeiro Ind e Comercios.a,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RIVA3,Riva 9 Empreendimentos Imobiliários,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RJSA3,RJS,ON,Rjs,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RLTM11,Relastomer,ON,Relastomer Tecnologia e Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RNEW3,Renova Energia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RNEW4,Renova Energia,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RNPT4,Renner Participações,PN,Renner Participacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+ROMI3,Indústrias ROMI,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RPAD3,Alfa Holdings,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RPAD5,Alfa Holdings,PNA,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RPAD6,Alfa Holdings,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RSAN3,Corsan,ON (balcão organizado),Companhia Riograndense de Saneamento,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RSAN4,Corsan,PN (balcão organizado),Companhia Riograndense de Saneamento,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RSID3,Rossi Residencial,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RSUL3,Metalúrgica Riosulense,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RSUL4,Metalúrgica Riosulense,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+RVEE3,Revee,ON,Revee S.A.,,,sim,conferido,Linha duplicada removida,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SALT3,Grupo Salta Educação,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SALT5,Grupo Salta Educação,PNA,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SALT6,Grupo Salta Educação,PNB,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SANB11,Banco Santander,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SANB3,Banco Santander,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SANB4,Banco Santander,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SANY6,Sanyo da Amazônia,PNB,Sanyo da Amazonia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SAPR11,Sanepar,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SAPR3,Sanepar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SAPR4,Sanepar,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SAUD3,Bradsaúde,ON,Odontoprev,ODPV3,,sim,conferido,Odontoprev (ODPV3) virou Bradsaúde em 23/04/2026; negocia como SAUD3 desde 05/05/2026 (registro CVM),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SBFG3,Grupo SBF,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SBSP3,Sabesp,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SCAR3,São Carlos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SDRM3,Siderama,ON,Companhia Siderúrgica da Amazônia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SDRM6,Siderama,PNB,Companhia Siderúrgica da Amazônia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SEER3,Ser Educacional,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SEQL3,Sequoia Logística,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SHUL3,Schulz,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SHUL4,Schulz,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SILO3,Casemg,ON,Companhia de Armazéns e Silos do Estado de Minas Gerais,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SILO4,Casemg,PN,Companhia de Armazéns e Silos do Estado de Minas Gerais,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SIMH3,Simpar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SLCE3,SLC Agrícola,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SMFT3,Smart Fit,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SMTO3,São Martinho,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SNSY3,Sansuy,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SNSY5,Sansuy,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SNSY6,Sansuy,PNB,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SOJA3,Boa Safra Sementes,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SOND3,Sondotécnica,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SOND5,Sondotécnica,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SOND6,Sondotécnica,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SPCI6,Sociedade de Participações Cimenteiras,PNB,Sociedade de Particip. Cimenteiras,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SPCR3,Spe Cristina,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+STAL6,Setal Telecom,PNB,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+STOK3,Tok&Stok,ON (balcão organizado),Estok Comércio e Representações; Estok Comercio e Representacoes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SULG3,Sulgás,ON,Companhia de Gás do Estado do Rio Grande do Sul,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SUZB3,Suzano,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SVPH7,Salvador Praia Hotel,PNC,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+SYNE3,SYN,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TAEE11,Taesa,Unit,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TAEE3,Taesa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TAEE4,Taesa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TASA3,Taurus,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TASA4,Taurus,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TCQC3,Indústria Carboquímica Catarinense,ON,ICC; Industria Carboquimica Catarinense,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TCQC4,Indústria Carboquímica Catarinense,PN,ICC; Industria Carboquimica Catarinense,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TCSA3,Tecnisa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TECN3,Technos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TELB3,Telebras,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TELB4,Telebras,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TEND3,Construtora Tenda,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TFCO3,Track & Field,ON,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TFCO4,Track & Field,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TGMA3,Tegma,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TIMS3,TIM,ON,TIM Participações,TIMP3,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TOGA11,Toga Empreendimentos Hoteleiros,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TOKY3,Toky,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TOTS3,Totvs,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TPIS3,Triunfo,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TRBR3,Transbrasil,ON,Transbrasil Linhas Aéreas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TRBR4,Transbrasil,PN,Transbrasil Linhas Aéreas,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TREG3,Tangará Energia,ON,Tangara Energia,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TRIS3,Trisul,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TTEN3,3tentos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TUPY3,Tupy,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TVIT3,Tivit,ON,"Tivit Terceirização de Processos, Serviços e Tecnologia",,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TXBZ11,TBM,ON (balcão organizado),Têxtil Bezerra de Menezes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TXBZ5,TBM,PNA (balcão organizado),Têxtil Bezerra de Menezes,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TXRX11,RenauxView,ON,Têxtil RenauxView; Textil Renauxview,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TXRX3,RenauxView,ON,Têxtil RenauxView; Textil Renauxview,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+TXRX4,RenauxView,PN,Têxtil RenauxView; Textil Renauxview,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+UCAS3,Unicasa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+UGPA3,Ultrapar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+UNIP3,Unipar,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+UNIP5,Unipar,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+UNIP6,Unipar,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+USAT4,Usati,PN,Usati Participações Portuárias,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+USIM3,Usiminas,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+USIM5,Usiminas,PNA,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+USIM6,Usiminas,PNB,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VALE3,Vale,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VAMO3,Grupo Vamos,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VBBR3,Vibra Energia,ON,BR Distribuidora; Petrobras Distribuidora,BRDT3,,sim,conferido,BR Distribuidora virou Vibra (2021),lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VDMG3,Veículo de Desestatização MG Investimentos,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VECF3,Valec,ON,"Engenharia, Construções e Ferrovias; Infra S.A.",,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VITT3,Vittia,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VIVA3,Vivara,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VIVR3,Viver,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VIVT3,Vivo,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VLID3,Valid,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VLPN3,Vale Paranapanema,ON,Eletricidade Vale Paranapanema,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VSPT3,Ferrovia Centro-Atlântica,ON,FCA; VLI; Ferrovia Centro-atlantica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VSPT4,Ferrovia Centro-Atlântica,PN,FCA; VLI; Ferrovia Centro-atlantica,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VSTE3,Veste,ON,Veste S.A. Estilo; Le Lis Blanc; Le Lis,,sim,sim,conferido,Le Lis Blanc é marca; a companhia listada é a Veste,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VTRU3,Vitru,ON,Vitru Educação,,,sim,conferido,Nome vinha como VITRUBREPCOM,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VULC3,Vulcabras,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+VVEO3,Viveo,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WDCN3,WDC Networks,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WEGE3,WEG,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WEST3,Westwing,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WHRL3,Whirlpool,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WHRL4,Whirlpool,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WIRE3,Wirex Cable,ON,,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WIZC3,Wiz Co,ON,Wiz Soluções; Wiz,WIZS3,,sim,conferido,Razão social na B3: Wiz Co Participações e Corretagem de Seguros,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WLMM3,WLM,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WLMM4,WLM,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+WNBR3,Wine,ON (balcão organizado),W2W E-Commerce de Vinhos; W2w E-commerce de Vinhos,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+YDUQ3,YDUQS,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+YOUC3,You Inc,ON,You INC Incorporadora e Participações,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
