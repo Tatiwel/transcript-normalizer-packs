@@ -1,9 +1,14 @@
 # Palavras comuns que aparecem nos nomes e apelidos de acoes.csv, lidas por gerar_termos.py.
 #
-# Um nome (canônico ou apelido) é tratado como palavra comum quando cada palavra dele,
-# dobrada como a engine dobra (minúsculas, sem acento), está nesta lista, entre as
-# palavras comuns do módulo pt-BR da engine, ou tem uma letra só. "Banco do Brasil" é
-# palavra comum; "Banco Bradesco" não é.
+# Um nome é tratado como palavra comum quando cada palavra dele, dobrada como a engine
+# dobra (minúsculas, sem acento), está nesta lista, entre as palavras comuns do módulo
+# pt-BR da engine, ou tem uma letra só. "Banco do Brasil" é palavra comum; "Banco
+# Bradesco" não é. Um nome comum ganha contexto (D-086). Um apelido de uma palavra só
+# que seja comum não entra, e uma linha que começa com `=` exclui um apelido inteiro.
+#
+# Desde que os termos gerados casam só por igualdade (`match: exact`, D-090), a lista
+# não tem mais os nomes que o fuzzy levaria a uma palavra comum (Energisa, Multiplan…):
+# sem fuzzy, esse risco não existe.
 #
 # A lista foi feita à mão, palavra por palavra, a partir de todas as palavras dos nomes
 # e apelidos marcados `conferido` e `usar_no_pack=sim`. Uma linha por palavra, já dobrada.
@@ -179,25 +184,12 @@ track
 valid
 whirlpool
 
-# --- nomes que o fuzzy (80 ou mais, D-005) levaria a uma palavra comum
-allianca      # aliança, 93
-coelce        # comece, 83
-contax        # contas, contra, 83
-economatica   # econômica, 90
-elektro       # eletro, 92
-energisa      # energia, 93
-gafisa        # grafia, 83
-intelbras     # inteiras, 82
-marcopolo     # Marco Polo, 95
-minerva       # mineral, 86
-orizon        # horizon, 92
-ourofino      # ouro fino, 94
-raizen        # raízes, 83
-randon        # Rondon, 83
-technos       # técnicos, 80
-tecnisa       # técnica, 86
-trevisa       # revisa, 92
-usiminas      # usinas, 86
-vittia        # vítima, 83
-vivara        # viverá, 83
-alupar        # alugar, 83
+# --- siglas de uso geral, que também são nome de empresa de até 4 letras
+gps
+rumo
+tim
+
+# --- formas inteiras que não entram como apelido (D-086: alias não aceita contexto)
+= cbd             # também é o canabidiol
+= 3r              # também são "os 3 Rs" da reciclagem
+= pao de acucar   # também é o morro, no Rio

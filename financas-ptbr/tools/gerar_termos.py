@@ -10,21 +10,24 @@ entrada dá sempre o mesmo arquivo. Dobra o texto com o módulo pt-BR da engine
 
 As regras, cada uma pela decisão da engine que a pede:
 
-- Um termo por empresa, classe `companhia`, canônico igual à coluna `nome`. As classes
-  da mesma empresa (CMIG3, CMIG4) viram aliases do mesmo termo.
-- Tickers, tickers antigos e apelidos entram como aliases: casam só por igualdade
-  exata e nunca são substituídos (D-020, D-025). Um nome antigo dito no vídeo
-  ("Eletrobras", ELET3) é reconhecido e fica como foi dito.
-- Um ticker cujo esqueleto fonético tem 5 letras ou mais (D-050) é descartado: a regra
-  fonética lê os aliases da classe `companhia` (D-068) e o alcançaria.
+- Um termo por empresa, classe `companhia`, canônico igual à coluna `nome`, com
+  `match: exact` (D-090): casa só por igualdade com as próprias formas, sem fuzzy, sem
+  regra fonética, sem flexão e sem número por extenso. Os erros de cada empresa entram
+  depois, como variantes vindas de vídeos reais.
+- Tickers (atuais e antigos) e apelidos entram como aliases, reconhecidos e nunca
+  substituídos (D-020). Um nome antigo dito no vídeo ("Eletrobras", ELET3) fica como foi dito.
+- Uma forma com mais de 3 palavras nunca casa: o matcher compara janelas de até 3
+  (NGRAM_SIZES). Um apelido assim é descartado, e uma empresa cujo nome tem mais de 3
+  palavras não é gerada.
 - O curado ganha: uma empresa com nome, apelido ou ticker igual a uma forma de um
   termo curado, ou cujo nome contém o nome de uma companhia curada, não é gerada.
-  Uma forma gerada igual a uma forma curada é descartada.
-- Palavra comum só com contexto (D-032, D-086): `palavra_comum=sim`, nome de até 4
-  letras, ou nome feito só de palavras comuns (`palavras_comuns.txt`). O canônico ganha
-  `context:` com termos curados de mercado de ações. Um apelido não pode ter contexto
-  (D-086), então um apelido curto ou comum é descartado.
-- Uma forma que duas empresas geradas teriam é descartada das duas.
+  Uma forma gerada igual a uma forma curada, ou à de outra empresa gerada, é descartada.
+- Palavra comum (D-032, D-086), pela lista `palavras_comuns.txt`: um nome com
+  `palavra_comum=sim` ou feito só de palavras comuns ganha `context:` com termos curados
+  de mercado de ações. Um apelido não pode ter contexto (D-086): um apelido de uma
+  palavra só que seja comum é descartado, e a lista exclui algumas formas inteiras.
+- Caixa (D-090, `case_sensitive`): um nome de até 4 letras, um nome de uma palavra só
+  com contexto e um apelido de até 4 letras sem dígito só casam escritos como no CSV.
 """
 
 from __future__ import annotations
@@ -39,6 +42,7 @@ from pathlib import Path
 
 import yaml
 
+from transcript_normalizer.core.matcher import NGRAM_SIZES, tokenize
 from transcript_normalizer.languages import pt_br
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -75,29 +79,40 @@ CONTEXTO = (
     "CAPEX",
     "debêntures",
 )
-#: D-050: um esqueleto mais curto que isto não entra na regra fonética.
-ESQUELETO_FONETICO = 5
-#: Nomes de até tantas letras só entram com contexto.
+#: Nomes e apelidos de até tantas letras só casam na caixa em que estão escritos.
 CURTO = 4
+#: O matcher compara janelas de até tantas palavras (matcher.NGRAM_SIZES).
+MAX_PALAVRAS = max(NGRAM_SIZES)
 #: Como começa o motivo de uma forma descartada por ser igual a outra.
-COLISAO = "igual a "
+COLISAO = "colisão, igual a "
+#: Como começa o motivo de uma forma longa demais para o matcher.
+LONGO = f"mais de {MAX_PALAVRAS} palavras"
 
 
 def dobra(texto: str) -> str:
-    return pt_br.normalize(texto)
+    """Como a engine compara um termo de `match: exact`: o `fold` do idioma (D-090)."""
+    return getattr(pt_br, "fold", pt_br.normalize)(texto)
+
+
+def palavras_de(texto: str) -> int:
+    """Quantas palavras o matcher vê na forma (D-024: suas janelas são de palavras)."""
+    return len(tokenize(texto, pt_br.sentence_boundaries))
 
 
 def letras(dobrado: str) -> int:
     return len(dobrado.replace(" ", ""))
 
 
-def ler_palavras(texto: str) -> frozenset[str]:
-    palavras = set()
+def ler_palavras(texto: str) -> tuple[frozenset[str], frozenset[str]]:
+    """(palavras comuns, formas excluídas): uma por linha; `= forma` exclui a forma inteira."""
+    palavras, excluidas = set(), set()
     for linha in texto.splitlines():
         linha = linha.split("#", 1)[0].strip()
-        if linha:
+        if linha.startswith("="):
+            excluidas.add(dobra(linha[1:].strip()))
+        elif linha:
             palavras.add(dobra(linha))
-    return frozenset(palavras)
+    return frozenset(palavras), frozenset(excluidas)
 
 
 def comum(dobrado: str, palavras: frozenset[str]) -> bool:
@@ -164,37 +179,48 @@ class Gerado:
     nome: str
     aliases: list[str]
     protecao: list[str]  # por que o nome só entra com contexto; vazio: entra sem
+    caixa: list[str] = field(default_factory=list)  # formas que só casam escritas assim
 
 
 @dataclass
 class Relatorio:
     gerados: list[Gerado] = field(default_factory=list)
-    pulados: list[tuple[str, str]] = field(default_factory=list)  # (empresa, termo curado e por quê)
+    pulados: list[tuple[str, str]] = field(default_factory=list)  # (empresa, por quê)
     descartadas: list[tuple[str, str, str]] = field(default_factory=list)  # (empresa, forma, motivo)
 
     @property
     def protegidos(self) -> list[Gerado]:
         return [g for g in self.gerados if g.protecao]
 
-    @property
-    def colisoes(self) -> list[tuple[str, str, str]]:
-        return [d for d in self.descartadas if d[2].startswith(COLISAO)]
+    def por_motivo(self) -> dict[str, int]:
+        contagem: dict[str, int] = {}
+        for _, _, motivo in self.descartadas:
+            chave = next((m for m in (COLISAO, LONGO) if motivo.startswith(m)), motivo.split(":", 1)[0])
+            chave = chave.rstrip(", ").removesuffix(", igual a")
+            contagem[chave] = contagem.get(chave, 0) + 1
+        return dict(sorted(contagem.items()))
 
     def resumo(self) -> str:
-        return (
-            f"termos gerados: {len(self.gerados)}\n"
-            f"empresas puladas por já serem curadas: {len(self.pulados)}\n"
-            f"nomes protegidos por contexto: {len(self.protegidos)}\n"
-            f"formas descartadas por colisão: {len(self.colisoes)}\n"
-            f"formas descartadas por outro motivo: {len(self.descartadas) - len(self.colisoes)}"
-        )
+        curadas = sum(1 for _, motivo in self.pulados if not motivo.startswith(LONGO))
+        out = [
+            f"termos gerados: {len(self.gerados)}",
+            f"empresas puladas por já serem curadas: {curadas}",
+            f"empresas puladas por nome com mais de {MAX_PALAVRAS} palavras: {len(self.pulados) - curadas}",
+            f"nomes com contexto: {len(self.protegidos)}",
+            f"termos com formas de caixa exata: {sum(1 for g in self.gerados if g.caixa)}",
+            f"formas descartadas: {len(self.descartadas)}",
+        ]
+        out += [f"  {motivo}: {n}" for motivo, n in self.por_motivo().items()]
+        return "\n".join(out)
 
     def completo(self) -> str:
-        out = [self.resumo(), "", f"contexto de todos os nomes protegidos: {', '.join(CONTEXTO)}", ""]
-        out.append("empresas puladas (o curado ganha):")
+        out = [self.resumo(), "", f"contexto de todos os nomes com contexto: {', '.join(CONTEXTO)}", ""]
+        out.append("empresas puladas:")
         out += [f"  {nome}: {motivo}" for nome, motivo in self.pulados]
-        out += ["", "nomes protegidos por contexto:"]
+        out += ["", "nomes com contexto:"]
         out += [f"  {g.nome}: {'; '.join(g.protecao)}" for g in self.protegidos]
+        out += ["", "formas de caixa exata (case_sensitive):"]
+        out += [f"  {g.nome}: {', '.join(g.caixa)}" for g in self.gerados if g.caixa]
         out += ["", "formas descartadas:"]
         out += [f"  {nome}: {forma!r} ({motivo})" for nome, forma, motivo in self.descartadas]
         return "\n".join(out)
@@ -206,7 +232,7 @@ def _curados(texto: str) -> list[dict]:
 
 def gerar(pack: str, acoes: str, palavras_texto: str) -> tuple[str, Relatorio]:
     """O novo texto do pack.yaml e o que foi feito."""
-    palavras = ler_palavras(palavras_texto)
+    palavras, excluidas = ler_palavras(palavras_texto)
     curados = _curados(pack)
     nomes_curados = {str(t["term"]) for t in curados}
     faltam = [c for c in CONTEXTO if c not in nomes_curados]
@@ -231,34 +257,36 @@ def gerar(pack: str, acoes: str, palavras_texto: str) -> tuple[str, Relatorio]:
         if iguais or contidos:
             relatorio.pulados.append((e.nome, "; ".join(iguais + contidos)))
             continue
+        if palavras_de(e.nome) > MAX_PALAVRAS:
+            relatorio.pulados.append((e.nome, f"{LONGO}: {palavras_de(e.nome)}; o nome nunca casaria"))
+            continue
 
         vistos = {nome}
-        aliases = []
+        aliases, caixa = [], []
         for forma, ticker in [(a, False) for a in e.apelidos] + [(t, True) for t in e.tickers + e.antigos]:
             d = dobra(forma)
             if d in vistos:
                 continue
             vistos.add(d)
-            motivo = None
-            if ticker and len(pt_br.skeleton(forma)) >= ESQUELETO_FONETICO:
-                motivo = f"ticker com esqueleto fonético {pt_br.skeleton(forma)!r}, a regra fonética o alcançaria"
-            elif not ticker and letras(d) <= CURTO:
-                motivo = f"apelido de até {CURTO} letras; alias não aceita contexto"
-            elif not ticker and comum(d, palavras):
-                motivo = "apelido feito de palavras comuns; alias não aceita contexto"
-            if motivo:
-                relatorio.descartadas.append((e.nome, forma, motivo))
+            if palavras_de(forma) > MAX_PALAVRAS:
+                relatorio.descartadas.append((e.nome, forma, f"{LONGO}: {palavras_de(forma)}"))
+            elif not ticker and d in excluidas:
+                relatorio.descartadas.append((e.nome, forma, "excluída em palavras_comuns.txt"))
+            elif not ticker and " " not in d and comum(d, palavras):
+                relatorio.descartadas.append((e.nome, forma, "apelido de uma palavra comum: alias não aceita contexto"))
             else:
                 aliases.append(forma)
+                if not ticker and letras(d) <= CURTO and not any(c.isdigit() for c in d):
+                    caixa.append(forma)
 
         protecao = []
         if e.palavra_comum:
             protecao.append("palavra_comum=sim")
-        if letras(nome) <= CURTO:
-            protecao.append(f"até {CURTO} letras")
         if comum(nome, palavras):
             protecao.append("palavra comum")
-        gerados.append(Gerado(e.nome, aliases, protecao))
+        if letras(nome) <= CURTO or (protecao and " " not in nome):
+            caixa.insert(0, e.nome)
+        gerados.append(Gerado(e.nome, aliases, protecao, caixa))
 
     # Nenhuma forma gerada igual a uma curada, nem a de outra empresa gerada.
     donos: dict[str, set[str]] = {}
@@ -278,6 +306,7 @@ def gerar(pack: str, acoes: str, palavras_texto: str) -> tuple[str, Relatorio]:
             else:
                 mantidos.append(a)
         g.aliases = mantidos
+        g.caixa = [c for c in g.caixa if c == g.nome or c in mantidos]
     repetidos = sorted(d for d in canonicos if sum(dobra(g.nome) == d for g in gerados) > 1)
     if repetidos:
         raise ValueError(f"dois termos gerados com o mesmo nome: {', '.join(repetidos)}")
@@ -304,10 +333,13 @@ def _bloco(gerados: list[Gerado]) -> str:
     for g in gerados:
         linhas.append(f"  - term: {_escalar(g.nome, 'term: {}')}\n")
         linhas.append(f"    class: {CLASSE}\n")
+        linhas.append(f"    match: exact\n")
         if g.aliases:
             linhas.append(f"    aliases: [{', '.join(_escalar(a, 'k: [{}]') for a in g.aliases)}]\n")
         if g.protecao:
             linhas.append(f"    context: {{{_escalar(g.nome, '{{{}: x}}')}: [{contexto}]}}\n")
+        if g.caixa:
+            linhas.append(f"    case_sensitive: [{', '.join(_escalar(c, 'k: [{}]') for c in g.caixa)}]\n")
     linhas.append(FIM)
     return "".join(linhas)
 
