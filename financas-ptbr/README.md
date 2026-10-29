@@ -28,18 +28,20 @@ Version history is in the comment at the top of `pack.yaml`.
 
 ## How it measures
 
-Against each video's gold file, with no learned layer, after D-048 (only what reaches `normalized.txt` is scored), with engine 0.7.0:
+Pack 0.3.9 against each video's gold file, with engine 0.7.0. The ruler is the engine's `evaluate_fixture(fixture, pack)`, with the pack loaded with an empty learned layer (`load_pack(path, learned=Learned())`), so nothing a user taught the tool counts; only what reaches `normalized.txt` is scored (D-048), and pack fit (D-054) is not applied:
 
 | video | rows in scope | hits | misses | false positives | aliases recognized | aliases wrongly substituted |
 |---|---|---|---|---|---|---|
-| R2Qgz8tFWVI | 167 | 145 | 22 | 13 | 8 | 0 |
-| wxgFO_fyfXg | 222 | 211 | 11 | 8 | 37 | 0 |
+| R2Qgz8tFWVI | 167 | 123 | 44 | 12 | 8 | 0 |
+| wxgFO_fyfXg | 222 | 168 | 54 | 3 | 37 | 0 |
 | 4wCtn8BWR4o | 45 | 44 | 1 | 2 | 15 | 0 |
-| 4tTmY8Buask | 119 | 108 | 11 | 4 | 38 | 0 |
+| 4tTmY8Buask | 119 | 105 | 14 | 4 | 38 | 0 |
+
+Until 0.3.9 this table showed the numbers of 0.3.8 (R2Qgz8tFWVI 145 hits, wxgFO_fyfXg 211). The numbers of 0.3.8 in the next paragraph are kept as they were measured then.
 
 0.3.8 gives OPEX back its variant `Ox`, only in a video where CAPEX appears (D-086): R2Qgz8tFWVI regains three rows (142 → 145 hits), with false positives unchanged. Out of the domain, forced past pack fit, 0.3.8 changes no text. On a 16-minute street prank video (BIrASod49XY, D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was; its `Ox` is the Northeastern `oxe`, and with no CAPEX in the video it is not even proposed. On a science video about prions (yJxxTf0IQC8, D-035), nothing is applied; the names that only sound like BR Partners (`proteínas`) are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the prank and 0 in the science video, so the engine would not apply it there at all.
 
-The numbers come from `uv run python scripts/measure.py` in the engine repository; the decision numbers (D-0xx) point into its `docs/DECISIONS.md`.
+The table above runs `evaluate_fixture` from the engine repository against this repository's file. `uv run python scripts/measure.py` there measures the copy bundled with the engine instead, which in engine 0.7.0 is still 0.3.8. The decision numbers (D-0xx) point into its `docs/DECISIONS.md`.
 
 ## Maintainers
 
