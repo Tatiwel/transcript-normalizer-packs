@@ -15,7 +15,8 @@ from transcript_normalizer import find_annotations, load_pack, parse_caption, re
 from transcript_normalizer.core.pack import Learned
 
 ROOT = Path(__file__).resolve().parents[1]
-PACK_FILE = ROOT / "financas-ptbr" / "pack.yaml"
+#: 0.3.9 moved here when 0.4.0 took `financas-ptbr/pack.yaml` (D-087).
+PACK_FILE = ROOT / "financas-ptbr" / "0.3.9" / "pack.yaml"
 
 #: term -> the variants 0.3.9 removed. The term stays, and so do its aliases.
 REMOVED = {
@@ -49,9 +50,9 @@ def pack():
 
 def test_version_and_index():
     entries = json.loads((ROOT / "index.json").read_text(encoding="utf-8"))["packs"]
-    assert [e["version"] for e in entries] == ["0.3.9", "0.3.7"]
-    assert entries[0]["min_engine"] == "0.7.0" and "min_engine" not in entries[1]
-    assert entries[0]["sha256"] == hashlib.sha256(PACK_FILE.read_bytes()).hexdigest()
+    entry = next(e for e in entries if e["version"] == "0.3.9")
+    assert entry["path"] == "financas-ptbr/0.3.9/pack.yaml" and entry["min_engine"] == "0.7.0"
+    assert entry["sha256"] == hashlib.sha256(PACK_FILE.read_bytes()).hexdigest()
     assert 'min_engine: "0.7.0"' in PACK_FILE.read_text(encoding="utf-8")
 
 
