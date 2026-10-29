@@ -8,21 +8,14 @@ Brazilian Portuguese videos about the stock market: listed companies and their t
 | indicador | 22 | EBITDA, dividend yield, preço teto, TIR |
 | conceito | 12 | valuation, buy and hold, free float |
 | pessoa | 6 | Warren Buffett, Décio Bazin |
-| organizacao | 5 | ANEEL, Geração Dividendos |
+| organizacao | 5 | ANEEL, Guepardo |
 | sigla | 4 | RAP, DEC, FEC, RI |
 | unidade | 2 | bilhão, tri |
-| ferramenta | 2 | Adapta Valuer, Ward |
+| ferramenta | 2 | Ward |
 
 ## Where the terms came from
 
-Four videos, each checked line by line against the tool's output. They are the regression fixtures of the engine repository (`fixtures/<id>/`), with a hand-checked gold file each.
-
-| video | channel | published | subject |
-|---|---|---|---|
-| [R2Qgz8tFWVI](https://youtu.be/R2Qgz8tFWVI) | Geração Dividendos | 2026-08-21 | CEMIG falling: trap or opportunity |
-| [wxgFO_fyfXg](https://youtu.be/wxgFO_fyfXg) | Geração Dividendos | 2026-08-25 | CMIG4 against CPFE3, electric utilities compared |
-| [4wCtn8BWR4o](https://youtu.be/4wCtn8BWR4o) | Adan Paulo - Adapta Partners | 2026-09-18 | CEMIG's new dividend |
-| [4tTmY8Buask](https://youtu.be/4tTmY8Buask) | Adan Paulo - Adapta Partners | 2026-09-27 | BRBI11, a new sector |
+Four videos in Portuguese about stocks listed on B3, each checked line by line against the tool's output. They are the regression fixtures of the engine repository, each with a hand-checked gold file. Below they are videos 1 to 4.
 
 Version history is in the comment at the top of `pack.yaml`.
 
@@ -42,16 +35,16 @@ Packs 0.3.9 and 0.4.0 give the same counts, column by column; the generated comp
 
 | video | rows in scope | hits | misses | false positives | aliases recognized | aliases wrongly substituted |
 |---|---|---|---|---|---|---|
-| R2Qgz8tFWVI | 167 | 123 | 44 | 12 | 8 | 0 |
-| wxgFO_fyfXg | 222 | 168 | 54 | 3 | 37 | 0 |
-| 4wCtn8BWR4o | 45 | 44 | 1 | 2 | 15 | 0 |
-| 4tTmY8Buask | 119 | 105 | 14 | 4 | 38 | 0 |
+| video 1 | 167 | 123 | 44 | 12 | 8 | 0 |
+| video 2 | 222 | 168 | 54 | 3 | 37 | 0 |
+| video 3 | 45 | 44 | 1 | 2 | 15 | 0 |
+| video 4 | 119 | 105 | 14 | 4 | 38 | 0 |
 
-Until 0.3.9 this table showed the numbers of 0.3.8 (R2Qgz8tFWVI 145 hits, wxgFO_fyfXg 211). The numbers of 0.3.8 in the next paragraph are kept as they were measured then.
+Until 0.3.9 this table showed the numbers of 0.3.8 (video 1: 145 hits, video 2: 211). The numbers of 0.3.8 in the next paragraph are kept as they were measured then.
 
-0.3.8 gives OPEX back its variant `Ox`, only in a video where CAPEX appears (D-086): R2Qgz8tFWVI regains three rows (142 → 145 hits), with false positives unchanged. Out of the domain, forced past pack fit, 0.3.8 changes no text. On a 16-minute street prank video (BIrASod49XY, D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was; its `Ox` is the Northeastern `oxe`, and with no CAPEX in the video it is not even proposed. On a science video about prions (yJxxTf0IQC8, D-035), nothing is applied; the names that only sound like BR Partners (`proteínas`) are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the prank and 0 in the science video, so the engine would not apply it there at all.
+0.3.8 gives OPEX back its variant `Ox`, only in a video where CAPEX appears (D-086): video 1 regains three rows (142 → 145 hits), with false positives unchanged. Out of the domain, forced past pack fit, 0.3.8 changes no text. On a first video from another field (D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was; its `Ox` is the Northeastern `oxe`, and with no CAPEX in the video it is not even proposed. On a second one (D-035), nothing is applied; the words that only sound like BR Partners are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the first video from another field and 0 in the second, so the engine would not apply it there at all.
 
-0.4.0, forced past pack fit on the prions video and on a second science video about Creutzfeldt-Jakob disease, applies nothing and proposes nothing that 0.3.9 did not; pack fit stays at 0 on both. In the four videos it adds 13 recognitions, none scored: Petrobras, Sanepar, Copel, Light, Axia, B3, and four wrong ones that leave the text as it was, `Fica` at the start of a sentence three times and `Vale a pena` once.
+0.4.0, forced past pack fit on that second video and on a third from another field, applies nothing and proposes nothing that 0.3.9 did not; pack fit stays at 0 on both. In the four videos it adds 13 recognitions, none scored: Petrobras, Sanepar, Copel, Light, Axia, B3, and four wrong ones that leave the text as it was, `Fica` at the start of a sentence three times and `Vale a pena` once.
 
 The table above runs `evaluate_fixture` from the engine repository against this repository's file. `uv run python scripts/measure.py` there measures the copy bundled with the engine instead, which in engine 0.7.0 is still 0.3.8. The decision numbers (D-0xx) point into its `docs/DECISIONS.md`.
 
