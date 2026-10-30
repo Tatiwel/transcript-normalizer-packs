@@ -1,6 +1,6 @@
 # Contributing
 
-Everyone taking part here follows the account's [Code of Conduct](https://github.com/Tatiwel/.github/blob/main/CODE_OF_CONDUCT.md).
+Everyone taking part here follows the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 How to propose a change to a pack or a new pack, how to measure it, and how a maintainer reviews it. The commands are those of transcript-normalizer 0.8.1. The curation rules themselves (what is an alias, what is a variant, what stays out) are in the engine's [CONTRIBUTING, section 2](https://github.com/Tatiwel/transcript-normalizer/blob/main/CONTRIBUTING.md#2-building-a-domain-pack); this file does not repeat them.
 
