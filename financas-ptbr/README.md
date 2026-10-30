@@ -31,7 +31,7 @@ Each generated term is one company (`class: companhia`), named as the CSV's `nom
 
 ## How it measures
 
-Packs 0.3.9 and 0.4.0 give the same counts, column by column; the generated companies add recognitions of names spelled out, which leave the text as it was. Against each video's gold file, with engine 0.7.0 (0.4.0 is measured by loading the file with the engine's `min_engine` check turned off in the measuring process, since 0.8.0 is not released yet). The ruler is the engine's `evaluate_fixture(fixture, pack)`, with the pack loaded with an empty learned layer (`load_pack(path, learned=Learned())`), so nothing a user taught the tool counts; only what reaches `normalized.txt` is scored (D-048), and pack fit (D-054) is not applied:
+Packs 0.3.9 and 0.4.0 give the same counts, column by column; the generated companies add recognitions of names spelled out, which leave the text as it was. Against each video's gold file, with engine 0.7.0 for 0.3.9 and engine 0.8.0 (tag v0.8.0) for 0.4.0, which loads it with every check on, `min_engine` included. The ruler is the engine's `evaluate_fixture(fixture, pack)`, with the pack loaded with an empty learned layer (`load_pack(path, learned=Learned())`), so nothing a user taught the tool counts; only what reaches `normalized.txt` is scored (D-048), and pack fit (D-054) is not applied:
 
 | video | rows in scope | hits | misses | false positives | aliases recognized | aliases wrongly substituted |
 |---|---|---|---|---|---|---|
