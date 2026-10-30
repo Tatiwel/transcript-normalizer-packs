@@ -21,14 +21,6 @@ EXACT_ENGINE = (0, 8, 0)
 #: The current file of each pack: `<name>/pack.yaml`. Older versions are frozen.
 CURRENT = sorted({ROOT / e["name"] / "pack.yaml" for e in ENTRIES})
 
-#: (pack, term) -> its forms of more than NGRAM_SIZES words, curated before this test.
-#: They never match, since the matcher compares windows of at most that many words.
-KNOWN_LONG = {
-    ("financas-ptbr", "dívida líquida"): ["dívida líquida sobre EBITDA"],
-    ("financas-ptbr", "ANEEL"): ["agência nacional de energia elétrica"],
-}
-
-
 def version(text) -> tuple[int, ...]:
     return tuple(int(p) for p in str(text).split("."))
 
@@ -58,11 +50,7 @@ def words(form: str) -> int:
 def cases():
     for path in CURRENT:
         for term in load(path).get("terms") or ():
-            name = path.parent.name
-            marks = ()
-            if (name, str(term["term"])) in KNOWN_LONG:
-                marks = pytest.mark.xfail(strict=True, reason="known: curated form of more than 3 words")
-            yield pytest.param(path, term, marks=marks, id=f"{name}:{term['term']}")
+            yield pytest.param(path, term, id=f"{path.parent.name}:{term['term']}")
 
 
 @pytest.mark.parametrize(("path", "term"), list(cases()))

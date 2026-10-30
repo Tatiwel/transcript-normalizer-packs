@@ -1,10 +1,10 @@
 # financas-ptbr
 
-Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.4.0, 353 terms: 70 curated by hand and 283 listed companies generated from `fontes/acoes.csv`. It needs transcript-normalizer 0.8.0 or later (`min_engine`), for `match: exact` (D-090). Engines 0.7.x get 0.3.9, kept in `0.3.9/pack.yaml`; older ones get 0.3.7, kept in `0.3.7/pack.yaml`.
+Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.4.0, 352 terms: 70 curated by hand and 282 listed companies generated from `fontes/acoes.csv`. It needs transcript-normalizer 0.8.0 or later (`min_engine`), for `match: exact` (D-090). Engines 0.7.x get 0.3.9, kept in `0.3.9/pack.yaml`; older ones get 0.3.7, kept in `0.3.7/pack.yaml`.
 
 | class | terms | examples |
 |---|---|---|
-| companhia | 300 | CEMIG, CPFL, Taesa, BR Partners; generated: Petrobras, Vale, Axia Energia |
+| companhia | 299 | CEMIG, CPFL, Taesa, BR Partners; generated: Petrobras, Vale, Axia Energia |
 | indicador | 22 | EBITDA, dividend yield, preço teto, TIR |
 | conceito | 12 | valuation, buy and hold, free float |
 | pessoa | 6 | Warren Buffett, Décio Bazin |
@@ -44,7 +44,7 @@ Until 0.3.9 this table showed the numbers of 0.3.8 (video 1: 145 hits, video 2: 
 
 0.3.8 gives OPEX back its variant `Ox`, only in a video where CAPEX appears (D-086): video 1 regains three rows (142 → 145 hits), with false positives unchanged. Out of the domain, forced past pack fit, 0.3.8 changes no text. On a first video from another field (D-035) the one annotation is a recognition (`tir` → TIR) that leaves the text as it was; its `Ox` is the Northeastern `oxe`, and with no CAPEX in the video it is not even proposed. On a second one (D-035), nothing is applied; the words that only sound like BR Partners are asked, never applied (D-060). Pack fit (D-054) finds 15 to 44 of its terms with confidence in the four videos, 1 in the first video from another field and 0 in the second, so the engine would not apply it there at all.
 
-0.4.0, forced past pack fit on that second video and on a third from another field, applies nothing and proposes nothing that 0.3.9 did not; pack fit stays at 0 on both. In the four videos it adds 13 recognitions, none scored: Petrobras, Sanepar, Copel, Light, Axia, B3, and four wrong ones that leave the text as it was, `Fica` at the start of a sentence three times and `Vale a pena` once.
+0.4.0, forced past pack fit on that second video and on a third from another field, applies nothing and proposes nothing that 0.3.9 did not; pack fit stays at 0 on both. In the four videos it adds 10 recognitions, none scored: Petrobras, Sanepar, Copel, Light, Axia, B3, and one wrong one that leaves the text as it was, `Vale a pena`. The company Fica is left out of the pack (`usar_no_pack=nao`): at the start of a sentence, `Fica` is an ordinary word.
 
 The table above runs `evaluate_fixture` from the engine repository against this repository's file. `uv run python scripts/measure.py` there measures the copy bundled with the engine instead, which in engine 0.7.0 is still 0.3.8. The decision numbers (D-0xx) point into its `docs/DECISIONS.md`.
 

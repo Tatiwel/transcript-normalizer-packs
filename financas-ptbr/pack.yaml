@@ -31,7 +31,7 @@
 # Lu, anel, deck, ESA, Roy e ROI (ROE), ROK, Rid, Portou e partner (BR Partners).
 # Nenhuma volta condicionada: se o erro reaparecer, entra de uma transcricao futura, com gabarito.
 # A regra de unidade "numero + B/bit/bi/be" nao muda. Ficam `no bank`, `PCA`, `apo` e `Ox`.
-# 0.4.0 acrescenta 283 companhias geradas de fontes/acoes.csv por tools/gerar_termos.py, no bloco delimitado no fim dos termos, todas com `match: exact` (D-090).
+# 0.4.0 acrescenta 282 companhias geradas de fontes/acoes.csv por tools/gerar_termos.py, no bloco delimitado no fim dos termos, todas com `match: exact` (D-090), e tira dois aliases de mais de 3 palavras, que nunca casam (`dívida líquida sobre EBITDA`, `agência nacional de energia elétrica`).
 language: pt-BR
 version: 0.4.0
 min_engine: "0.8.0"
@@ -151,7 +151,7 @@ terms:
     aliases: [marketcap, valor de mercado]
   - term: ANEEL
     class: organizacao
-    aliases: [Aneel, agência nacional de energia elétrica]
+    aliases: [Aneel]
   - term: DEC
     class: sigla
   - term: FEC
@@ -200,7 +200,6 @@ terms:
     aliases: [target price]
   - term: dívida líquida
     class: indicador
-    aliases: [dívida líquida sobre EBITDA]
     variants: [dívida alíquida]
   - term: Charlie Munger
     class: pessoa
@@ -767,12 +766,6 @@ terms:
     class: companhia
     match: exact
     aliases: [FHER3]
-  - term: Fica
-    class: companhia
-    match: exact
-    aliases: [FIEI3]
-    context: {Fica: [dividendo, dividend yield, EBITDA, valuation, payout, preço teto, Selic, P/VP, ROE, LPA, tag along, free float, small cap, CAPEX, debêntures]}
-    case_sensitive: [Fica]
   - term: Fleury
     class: companhia
     match: exact

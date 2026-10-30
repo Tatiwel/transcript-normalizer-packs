@@ -294,7 +294,7 @@ FESA3,Ferbasa,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/
 FESA4,Ferbasa,PN,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
 FGRT5,Frigorífico Redentor,PNA (balcão organizado),Frigorifico Redentor,,,sim,revisado_manual,Empresa sem negócio no dia da lista original,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
 FHER3,Fertilizantes Heringer,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
-FIEI3,Fica,ON,,,sim,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
+FIEI3,Fica,ON,,,sim,nao,conferido,fora do pack: 'Fica' no início de frase é palavra comum,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
 FIGE3,Investimentos Bemge,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
 FIGE4,Investimentos Bemge,PN,,,,sim,conferido,Outra classe de empresa já presente,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente
 FIQE3,Unifique,ON,,,,sim,conferido,,lista inicial: cadastro público B3 de 20/10/2026; nomes e apelidos revisados manualmente

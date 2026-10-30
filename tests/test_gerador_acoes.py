@@ -99,8 +99,22 @@ def curated_terms(path: Path) -> list[dict]:
     return yaml.safe_load(gerar_termos.sem_bloco(path.read_text(encoding="utf-8")))["terms"]
 
 
-def test_the_curated_part_is_0_3_9_untouched():
-    assert curated_terms(PACK_FILE) == curated_terms(PACK_0_3_9)
+#: term -> the aliases 0.4.0 took out of the curated part: more than 3 words never match.
+REMOVED_LONG = {
+    "dívida líquida": ["dívida líquida sobre EBITDA"],
+    "ANEEL": ["agência nacional de energia elétrica"],
+}
+
+
+def test_the_curated_part_is_0_3_9_but_the_long_aliases():
+    expected = []
+    for term in curated_terms(PACK_0_3_9):
+        removed = REMOVED_LONG.get(term["term"], [])
+        if removed:
+            aliases = [a for a in term["aliases"] if a not in removed]
+            term = {k: v for k, v in term.items() if k != "aliases"} | ({"aliases": aliases} if aliases else {})
+        expected.append(term)
+    assert curated_terms(PACK_FILE) == expected
 
 
 def test_a_curated_company_is_not_generated():
