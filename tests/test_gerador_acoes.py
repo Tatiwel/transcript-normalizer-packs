@@ -1,4 +1,4 @@
-"""financas-ptbr/tools/gerar_termos.py and the 0.4.0 it wrote.
+"""financas-ptbr/tools/gerar_termos.py and the 0.4.0 it wrote (0.4.1 changes one curated term).
 
 Run with the engine's environment, from this repository:
 
@@ -106,6 +106,10 @@ REMOVED_LONG = {
 }
 
 
+#: term -> the keys 0.4.1 added to a curated term, after its `class`.
+ADDED_0_4_1 = {"BR Partners": {"match": "exact"}}
+
+
 def test_the_curated_part_is_0_3_9_but_the_long_aliases():
     expected = []
     for term in curated_terms(PACK_0_3_9):
@@ -113,6 +117,11 @@ def test_the_curated_part_is_0_3_9_but_the_long_aliases():
         if removed:
             aliases = [a for a in term["aliases"] if a not in removed]
             term = {k: v for k, v in term.items() if k != "aliases"} | ({"aliases": aliases} if aliases else {})
+        added = ADDED_0_4_1.get(term["term"])
+        if added:
+            keys = list(term)
+            at = keys.index("class") + 1
+            term = {k: term[k] for k in keys[:at]} | added | {k: term[k] for k in keys[at:]}
         expected.append(term)
     assert curated_terms(PACK_FILE) == expected
 
