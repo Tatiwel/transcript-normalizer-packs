@@ -40,6 +40,8 @@
 # `Ebida` (EBITDA) e `presteto` (preco teto) ficam: tira-las custa 1 e 2 acertos, e `bebida`
 # continuaria chegando a EBITDA por outra forma. Os comentarios passam a chamar as fixtures
 # pelo nome novo da engine (fixture0001 a fixture0004, D-094).
+# Saem quatro termos ligados a canais e nao ao mercado: o nome de um canal e o de um apresentador,
+# um produto e um curso. Custo medido: 4 acertos em fixture0001, 2 em fixture0003 e 4 em fixture0004.
 language: pt-BR
 version: 0.4.1
 min_engine: "0.8.0"
@@ -79,10 +81,6 @@ terms:
     variants: [no bank]
   - term: Ártica
     class: organizacao
-  - term: Geração Dividendos
-    class: organizacao
-    aliases: [MGD]
-    variants: [Geração de Dentes]
   - term: EBITDA
     class: indicador
     variants: [Ebítida, Ebíta, web ebita, web ebit, ebígita, Ebida, bitera, beita, beit, evitida]
@@ -135,12 +133,6 @@ terms:
   - term: Ward
     class: ferramenta
     aliases: [ward.app.br]
-  - term: Adeus INSS
-    class: organizacao
-    variants: [ADUS NSS, Deus NSS]
-  - term: Leo
-    class: pessoa
-    variants: [Léo]
   # 0.2.0
   - term: bilhão
     class: unidade
@@ -243,9 +235,6 @@ terms:
     class: companhia
     aliases: [BTG]
     variants: [B3G Part]
-  - term: Adapta Valuer
-    class: ferramenta
-    variants: [adapta valor, adapta Vala, Valverdra]
   - term: Auren
     class: companhia
     variants: [Aurem]

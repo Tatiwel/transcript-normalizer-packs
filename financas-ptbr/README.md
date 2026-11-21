@@ -1,17 +1,17 @@
 # financas-ptbr
 
-Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.4.1, 352 terms: 70 curated by hand and 282 listed companies generated from `fontes/acoes.csv`. It needs transcript-normalizer 0.8.0 or later (`min_engine`), for `match: exact` (D-090). Engines 0.7.x get 0.3.9, kept in `0.3.9/pack.yaml`; older ones get 0.3.7, kept in `0.3.7/pack.yaml`.
+Brazilian Portuguese videos about the stock market: listed companies and their tickers, financial indicators, valuation concepts, the people and organizations of the field. Version 0.4.1, 348 terms: 66 curated by hand and 282 listed companies generated from `fontes/acoes.csv`. It needs transcript-normalizer 0.8.0 or later (`min_engine`), for `match: exact` (D-090). Engines 0.7.x get 0.3.9, kept in `0.3.9/pack.yaml`; older ones get 0.3.7, kept in `0.3.7/pack.yaml`.
 
 | class | terms | examples |
 |---|---|---|
 | companhia | 299 | CEMIG, CPFL, Taesa, BR Partners; generated: Petrobras, Vale, Axia Energia |
 | indicador | 22 | EBITDA, dividend yield, preço teto, TIR |
 | conceito | 12 | valuation, buy and hold, free float |
-| pessoa | 6 | Warren Buffett, Décio Bazin |
-| organizacao | 5 | ANEEL, Guepardo |
+| pessoa | 5 | Warren Buffett, Décio Bazin |
+| organizacao | 3 | ANEEL, Guepardo |
 | sigla | 4 | RAP, DEC, FEC, RI |
 | unidade | 2 | bilhão, tri |
-| ferramenta | 2 | Ward |
+| ferramenta | 1 | Ward |
 
 ## Where the terms came from
 
@@ -31,16 +31,16 @@ Each generated term is one company (`class: companhia`), named as the CSV's `nom
 
 ## How it measures
 
-The table is 0.4.1's, measured with engine 0.8.1. Packs 0.3.9 and 0.4.0 give the same counts, column by column, except video 4 (105 hits, 14 misses, 4 false positives, for both); the generated companies add recognitions of names spelled out, which leave the text as it was. Against each video's gold file, with engine 0.7.0 for 0.3.9 and engine 0.8.0 (tag v0.8.0) for 0.4.0, which loads it with every check on, `min_engine` included. The ruler is the engine's `evaluate_fixture(fixture, pack)`, with the pack loaded with an empty learned layer (`load_pack(path, learned=Learned())`), so nothing a user taught the tool counts; only what reaches `normalized.txt` is scored (D-048), and pack fit (D-054) is not applied:
+The table is 0.4.1's, measured with engine 0.8.1. Packs 0.3.9 and 0.4.0 give the same counts, column by column: video 1 123 hits and 44 misses, video 3 44 and 1, video 4 105, 14 and 4 false positives, the rest as in the table; the generated companies add recognitions of names spelled out, which leave the text as it was. Against each video's gold file, with engine 0.7.0 for 0.3.9 and engine 0.8.0 (tag v0.8.0) for 0.4.0, which loads it with every check on, `min_engine` included. The ruler is the engine's `evaluate_fixture(fixture, pack)`, with the pack loaded with an empty learned layer (`load_pack(path, learned=Learned())`), so nothing a user taught the tool counts; only what reaches `normalized.txt` is scored (D-048), and pack fit (D-054) is not applied:
 
 | video | rows in scope | hits | misses | false positives | aliases recognized | aliases wrongly substituted |
 |---|---|---|---|---|---|---|
-| video 1 | 167 | 123 | 44 | 12 | 8 | 0 |
+| video 1 | 167 | 119 | 48 | 12 | 8 | 0 |
 | video 2 | 222 | 168 | 54 | 3 | 37 | 0 |
-| video 3 | 45 | 44 | 1 | 2 | 15 | 0 |
-| video 4 | 119 | 103 | 16 | 3 | 38 | 0 |
+| video 3 | 45 | 40 | 5 | 2 | 15 | 0 |
+| video 4 | 119 | 101 | 18 | 3 | 38 | 0 |
 
-0.4.1 makes BR Partners match only as written (`match: exact`, D-090): its name, aliases and listed variants, never fuzzy or by sound. On a lesson of 2h40 transcribed locally (another speaker, not a fixture), 0.4.0 applied `aportes` and `portas` as BR Partners 10 times, asked about 5 more (`para trás`, `aportar só`) and marked 93 low; 0.4.1 does none of it. The cost is video 4's two hits that came fuzzily from ordinary words (`portas` 7:07 and `Portes` 9:08, which 0.3.0 kept out as variants, D-032), with one false positive fewer. In the same lesson, `bebida` → EBITDA and `preste` → preço teto were applied too (fuzzy, medium band); the variants that reach them stay: taking out `Ebida` loses a hit in video 1 and `bebida` still reaches EBITDA through another form, and taking out `presteto` loses two hits in video 2. The review's "not this term" keeps them out for whoever answers it. Not redone for 0.4.1: the silence run on videos from other fields; the change only takes ways of matching away from one term.
+0.4.1 makes BR Partners match only as written (`match: exact`, D-090): its name, aliases and listed variants, never fuzzy or by sound. On a lesson of 2h40 transcribed locally (another speaker, not a fixture), 0.4.0 applied `aportes` and `portas` as BR Partners 10 times, asked about 5 more (`para trás`, `aportar só`) and marked 93 low; 0.4.1 does none of it. The cost is video 4's two hits that came fuzzily from ordinary words (`portas` 7:07 and `Portes` 9:08, which 0.3.0 kept out as variants, D-032), with one false positive fewer. In the same lesson, `bebida` → EBITDA and `preste` → preço teto were applied too (fuzzy, medium band); the variants that reach them stay: taking out `Ebida` loses a hit in video 1 and `bebida` still reaches EBITDA through another form, and taking out `presteto` loses two hits in video 2. The review's "not this term" keeps them out for whoever answers it. 0.4.1 also takes out four terms tied to channels rather than to the market: a channel's name, a presenter's, a product and a course. The pack is about the field, not about who talks about it. Their gold rows stay in the fixtures and are now misses: 4 in video 1, 4 in video 3 and 2 in video 4. Not redone for 0.4.1: the silence run on videos from other fields; the change only takes ways of matching away from one term.
 
 Until 0.3.9 this table showed the numbers of 0.3.8 (video 1: 145 hits, video 2: 211). The numbers of 0.3.8 in the next paragraph are kept as they were measured then.
 

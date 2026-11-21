@@ -108,11 +108,15 @@ REMOVED_LONG = {
 
 #: term -> the keys 0.4.1 added to a curated term, after its `class`.
 ADDED_0_4_1 = {"BR Partners": {"match": "exact"}}
+#: The curated terms 0.4.1 took out: tied to channels, not to the market.
+REMOVED_0_4_1 = {"Geração Dividendos", "Adeus INSS", "Leo", "Adapta Valuer"}
 
 
 def test_the_curated_part_is_0_3_9_but_the_long_aliases():
     expected = []
     for term in curated_terms(PACK_0_3_9):
+        if term["term"] in REMOVED_0_4_1:
+            continue
         removed = REMOVED_LONG.get(term["term"], [])
         if removed:
             aliases = [a for a in term["aliases"] if a not in removed]
