@@ -24,13 +24,19 @@ O pack é gerado a partir destes arquivos. Para corrigir um nome, corrija aqui e
 - `palavra_comum` (só em `acoes.csv`): `sim` quando o nome também é palavra comum do português. Esses nomes só podem entrar no pack com contexto.
 - `usar_no_pack`: `sim` ou `nao`.
 - `status`:
-  - `conferido`: nome conferido em fonte.
-  - `revisado_manual`: nome revisado à mão, sem fonte registrada.
+  - `conferido`: o nome passou pela revisão da lista inicial: foi mantido como estava, corrigido, ou copiado de outra classe da mesma empresa. **Não quer dizer que cada nome foi conferido em fonte, um a um.** Na revisão, a linha que não precisou de correção ficou marcada como certa por padrão. A coluna `origem_nome` diz qual dos casos é. É deste status que o gerador tira as companhias do pack.
+  - `revisado_manual`: nome tirado da razão social da B3 por script e revisado à mão, sem fonte registrada.
   - `nome_automatico`: nome gerado por script, sem revisão.
   - `verificar`: há uma dúvida, descrita em `nota`.
+- `origem_nome` (só em `acoes.csv`): de onde veio o nome que está em `nome`.
+  - `lista_inicial`: o nome da lista inicial, mantido na revisão sem correção.
+  - `corrigido_na_revisao`: o nome foi trocado na revisão (por exemplo, nome novo depois de fusão).
+  - `grafia_corrigida`: só a grafia mudou na revisão (caixa alta, acento, razão social encurtada).
+  - `copiado_de_outra_classe`: a classe não estava na lista inicial; o nome foi copiado de outra classe da mesma empresa.
+  - `razao_social_b3`: a empresa não estava na lista inicial; o nome saiu da razão social da B3, por script, e foi revisado depois (status `revisado_manual` ou `verificar`).
 - `nota`: observações.
 - `origem`: de onde veio a lista.
 
 ## Origem
 
-A lista de tickers saiu do cadastro público de instrumentos da B3 de 20/10/2026. Os nomes foram limpos e revisados à mão. Das colunas do cadastro, só ficaram ticker, nome e classificação; razão social, nome de pregão, especificação e ISIN foram removidos. Fonte aberta para conferência: CVM Dados Abertos (FCA para ações e informe mensal para FIIs).
+A lista de tickers saiu do cadastro público de instrumentos da B3 de 20/10/2026. Os nomes foram limpos e revisados, e a coluna `origem_nome` diz o que aconteceu com cada um. Das colunas do cadastro, só ficaram ticker, nome e classificação; razão social, nome de pregão, especificação e ISIN foram removidos. Fonte aberta para conferência: CVM Dados Abertos (FCA para ações e informe mensal para FIIs).
